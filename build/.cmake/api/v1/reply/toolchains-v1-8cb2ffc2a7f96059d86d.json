@@ -1,0 +1,133 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0/include",
+						"D:/Github/CykaBlyat-Tools/mingw32/include",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0/include-fixed",
+						"D:/Github/CykaBlyat-Tools/mingw32/i686-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc",
+						"D:/Github/CykaBlyat-Tools/mingw32/i686-w64-mingw32/lib",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/Github/CykaBlyat-Tools/mingw32/bin/gcc.exe",
+				"version" : "10.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/Github/CykaBlyat-Tools/mingw32/include/c++/10.3.0",
+						"D:/Github/CykaBlyat-Tools/mingw32/include/c++/10.3.0/i686-w64-mingw32",
+						"D:/Github/CykaBlyat-Tools/mingw32/include/c++/10.3.0/backward",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0/include",
+						"D:/Github/CykaBlyat-Tools/mingw32/include",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0/include-fixed",
+						"D:/Github/CykaBlyat-Tools/mingw32/i686-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc/i686-w64-mingw32/10.3.0",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib/gcc",
+						"D:/Github/CykaBlyat-Tools/mingw32/i686-w64-mingw32/lib",
+						"D:/Github/CykaBlyat-Tools/mingw32/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/Github/CykaBlyat-Tools/mingw32/bin/g++.exe",
+				"version" : "10.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/Github/CykaBlyat-Tools/mingw32/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

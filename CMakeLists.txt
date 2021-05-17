@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
+cmake_policy(SET CMP0079 NEW)
+
 if (WIN32)
     set(BUILD_PLATFORM Win32)
 elseif (UNIX AND NOT APPLE)
@@ -69,6 +71,7 @@ set(OPENSSL_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl/include")
 set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl")
 add_subdirectory(dependencies/sleepy-discord)
 target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_)
+target_link_libraries(sleepy-discord PUBLIC ws2_32)
 
 add_executable(StonksBot ${STONK})
 

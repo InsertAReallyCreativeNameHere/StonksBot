@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install"
   "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir"
   "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch"
-  "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update"
   "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test"
 )
 

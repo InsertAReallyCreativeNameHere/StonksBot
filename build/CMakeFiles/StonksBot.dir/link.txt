@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\StonksBot.dir/objects.a
+D:\Github\CykaBlyat-Tools\mingw32\bin\ar.exe cr CMakeFiles\StonksBot.dir/objects.a @CMakeFiles\StonksBot.dir\objects1.rsp
+D:\Github\CykaBlyat-Tools\mingw32\bin\g++.exe  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wl,--whole-archive CMakeFiles\StonksBot.dir/objects.a -Wl,--no-whole-archive -o ..\bin\x86-MinGW-Debug-Win32\StonksBot\StonksBot.exe -Wl,--out-implib,..\lib\x86-MinGW-Debug-Win32\StonksBot\libStonksBot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StonksBot.dir\linklibs.rsp

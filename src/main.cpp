@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
     (void)argc;
     (void)argv;
 
-    StonksClient client(std::getenv("STONKS_TOKEN"));
+    StonksClient client("ODQzODIyNzg2Njk4NTQzMTM1.YKJdNQ.KHhEdTHxvStb6TDGsiUw-Urnb0Y");
     client.run();
 
     system("pause");

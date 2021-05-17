@@ -2,37 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download-complete.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/CMakeFiles/websocketpp-download-complete.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch.rule"
 		},
 		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test.rule"
-		},
-		{
-			"file" : "C:/Users/Administrator/Documents/GitHub/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update.rule"
+			"file" : "D:/Github/StonksBot/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test.rule"
 		}
 	],
 	"target" : 
