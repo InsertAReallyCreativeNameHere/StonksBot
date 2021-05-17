@@ -1,0 +1,3 @@
+C:/Users/Administrator/Documents/GitHub/StonksBot/build/cpr-download/CMakeFiles/cpr-download.dir
+C:/Users/Administrator/Documents/GitHub/StonksBot/build/cpr-download/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Documents/GitHub/StonksBot/build/cpr-download/CMakeFiles/rebuild_cache.dir
