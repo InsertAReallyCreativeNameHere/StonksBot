@@ -1,0 +1,2 @@
+# StonksBot
+ Better than Shallert.
