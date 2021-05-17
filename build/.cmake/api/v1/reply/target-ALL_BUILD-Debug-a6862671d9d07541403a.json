@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"dependencies/sleepy-discord/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "libcurl::@7349aeacaff41deceb36"
+		},
+		{
+			"id" : "cpr::@e5d5e361d5d2e4794242"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "sleepy-discord::@cf3d41d1d73f85d85d1f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMake"
+	},
+	"id" : "ALL_BUILD::@2283c53e0db08139d563",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "dependencies/sleepy-discord",
+		"source" : "dependencies/sleepy-discord"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

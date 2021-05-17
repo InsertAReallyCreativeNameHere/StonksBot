@@ -55,7 +55,8 @@ elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL
     endif()
     set(COMPILER "Clang")
 else()
-    message(FATAL_ERROR "No supported compiler used.")
+    set(BUILD_ARCH "x64")
+    set(COMPILER "Unknown")
 endif()
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
@@ -67,8 +68,7 @@ file(GLOB_RECURSE STONK configure_depends
     "${CMAKE_SOURCE_DIR}/src/*.cpp"
 )
 
-set(OPENSSL_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl/include")
-set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl")
+set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/${BUILD_ARCH}-OpenSSL-Windows")
 add_subdirectory(dependencies/sleepy-discord)
 target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_)
 target_link_libraries(sleepy-discord PUBLIC ws2_32)

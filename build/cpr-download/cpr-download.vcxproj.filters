@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\4ceeccffde2d5e3220f6468a332436e4\cpr-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\815238170d7c63a4d5b1b8e08d8bc357\cpr-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\d3817131bdc4b7489ec61db5fa4ab23c\cpr-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\cpr-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Github\StonksBot\build\cpr-download\CMakeFiles\cpr-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{85981737-77CA-3C6F-8A50-D581860E2103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

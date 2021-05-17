@@ -1,0 +1,3 @@
+D:\Github\StonksBot\build\dependencies\sleepy-discord\deps\cpr\lib\x86-Unknown-Debug-Win32\StonksBot\Debug\cpr.pdb
+D:\Github\StonksBot\build\dependencies\sleepy-discord\deps\cpr\cpr\cpr.dir\Debug\cpr.pdb
+D:\Github\StonksBot\build\dependencies\sleepy-discord\deps\cpr\lib\x64-Unknown-Debug-Win32\StonksBot\Debug\cpr.pdb

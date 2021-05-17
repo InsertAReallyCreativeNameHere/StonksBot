@@ -10,8 +10,7 @@ namespace stocc
         using SleepyDiscord::DiscordClient::DiscordClient;
         void onMessage(SleepyDiscord::Message message) override
         {
-            if (message.startsWith("shallot"))
-                sendMessage(message.channelID, "test" + message.author.username);
+            sendMessage(message.channelID, "test" + message.author.username, SleepyDiscord::Async);
         }
     };
 }

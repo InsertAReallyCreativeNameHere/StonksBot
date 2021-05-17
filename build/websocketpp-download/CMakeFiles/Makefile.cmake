@@ -7,10 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "D:/CMake/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake"
   "D:/CMake/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
   "D:/CMake/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
-  "D:/CMake/share/cmake-3.20/Modules/CMakeSystem.cmake.in"
   "D:/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/CMake/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
   "D:/CMake/share/cmake-3.20/Modules/ExternalProject-gitupdate.cmake.in"
@@ -34,7 +32,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-gitinfo.txt"
   "websocketpp-download-prefix/tmp/websocketpp-download-gitupdate.cmake"
   "websocketpp-download-prefix/tmp/websocketpp-download-cfgcmd.txt"

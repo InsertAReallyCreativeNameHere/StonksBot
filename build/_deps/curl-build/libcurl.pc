@@ -23,9 +23,9 @@
 # This should most probably benefit from getting a "Requires:" field added
 # dynamically by configure.
 #
-prefix=C:/Program Files (x86)/StonksBot
+prefix=C:/Program Files/StonksBot
 exec_prefix=${prefix}
-libdir=C:/Program Files (x86)/StonksBot/lib
+libdir=C:/Program Files/StonksBot/lib
 includedir=${prefix}/include
 supported_protocols="HTTP HTTPS"
 supported_features="SSL IPv6 AsynchDNS SSPI SPNEGO Kerberos NTLM"
@@ -35,5 +35,5 @@ URL: https://curl.haxx.se/
 Description: Library to transfer files with ftp, http, etc.
 Version: 7.69.1
 Libs: -L${libdir} -lcurl
-Libs.private:  -lmingw32 -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+Libs.private:  -lwinmm -lws2_32 -ladvapi32 -lcrypt32
 Cflags: -I${includedir} 

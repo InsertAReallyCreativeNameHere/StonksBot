@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\1b84602ffff273493792d57f7fbe45c5\websocketpp-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\bca8600344988b9e3e3ca860bd1140b2\websocketpp-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\a99ae7218fd9d77eb9104a8e1ef12904\websocketpp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\StonksBot\build\websocketpp-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Github\StonksBot\build\websocketpp-download\CMakeFiles\websocketpp-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7E4DD2B-CD03-3548-B545-546D007F0830}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

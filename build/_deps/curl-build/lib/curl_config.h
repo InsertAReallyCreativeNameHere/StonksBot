@@ -67,7 +67,7 @@
 /* #undef CURL_DISABLE_VERBOSE_STRINGS */
 
 /* to make a symbol visible */
-#define CURL_EXTERN_SYMBOL __attribute__ ((__visibility__ ("default")))
+/* #undef CURL_EXTERN_SYMBOL */
 /* Ensure using CURL_EXTERN_SYMBOL is possible */
 #ifndef CURL_EXTERN_SYMBOL
 #define CURL_EXTERN_SYMBOL
@@ -125,7 +125,7 @@
 #define HAVE_ASSERT_H 1
 
 /* Define to 1 if you have the `basename' function. */
-#define HAVE_BASENAME 1
+/* #undef HAVE_BASENAME */
 
 /* Define to 1 if bool is an available type. */
 #define HAVE_BOOL_T 1
@@ -134,7 +134,7 @@
 /* #undef HAVE_BUILTIN_AVAILABLE */
 
 /* Define to 1 if you have the clock_gettime function and monotonic timer. */
-#define HAVE_CLOCK_GETTIME_MONOTONIC 1
+/* #undef HAVE_CLOCK_GETTIME_MONOTONIC */
 
 /* Define to 1 if you have the `closesocket' function. */
 #define HAVE_CLOSESOCKET 1
@@ -314,7 +314,7 @@
 /* #undef HAVE_INET_NTOP */
 
 /* Define to 1 if you have a IPv6 capable working inet_pton function. */
-/* #undef HAVE_INET_PTON */
+#define HAVE_INET_PTON 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 /* #undef HAVE_INTTYPES_H */
@@ -372,7 +372,7 @@
 /* #undef HAVE_LDAP_URL_PARSE */
 
 /* Define to 1 if you have the <libgen.h> header file. */
-#define HAVE_LIBGEN_H 1
+/* #undef HAVE_LIBGEN_H */
 
 /* Define to 1 if you have the `idn' library (-lidn). */
 /* #undef HAVE_LIBIDN */
@@ -726,7 +726,7 @@
 #define HAVE_VARIADIC_MACROS_C99 1
 
 /* Define to 1 if compiler supports old gcc variadic macro style. */
-#define HAVE_VARIADIC_MACROS_GCC 1
+/* #undef HAVE_VARIADIC_MACROS_GCC */
 
 /* Define to 1 if you have the winber.h header file. */
 /* #undef HAVE_WINBER_H */
@@ -901,16 +901,16 @@
 #define SIZEOF_LONG 4
 
 /* The size of `off_t', as computed by sizeof. */
-#define SIZEOF_OFF_T 8
+#define SIZEOF_OFF_T 4
 
 /* The size of `curl_off_t', as computed by sizeof. */
 #define SIZEOF_CURL_OFF_T 8
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 4
+#define SIZEOF_SIZE_T 8
 
 /* The size of `time_t', as computed by sizeof. */
-#define SIZEOF_TIME_T 4
+#define SIZEOF_TIME_T 8
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
@@ -993,7 +993,7 @@
 #endif
 
 /* Number of bits in a file offset, on hosts where this is settable. */
-#define _FILE_OFFSET_BITS 64
+/* #undef _FILE_OFFSET_BITS */
 
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
@@ -1017,7 +1017,7 @@
 /* #undef size_t */
 
 /* the signed version of size_t */
-/* #undef ssize_t */
+#define ssize_t __int64
 
 /* Define to 1 if you have the mach_absolute_time function. */
 /* #undef HAVE_MACH_ABSOLUTE_TIME */

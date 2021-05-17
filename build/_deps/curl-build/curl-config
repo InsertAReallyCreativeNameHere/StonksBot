@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=C:/Program Files (x86)/StonksBot
+prefix=C:/Program Files/StonksBot
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -76,7 +76,7 @@ while test $# -gt 0; do
         ;;
 
     --cc)
-        echo "D:/Github/CykaBlyat-Tools/mingw32/bin/gcc.exe"
+        echo "D:/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe"
         ;;
 
     --prefix)
@@ -155,13 +155,13 @@ while test $# -gt 0; do
         ;;
 
     --libs)
-        if test "XC:/Program Files (x86)/StonksBot/lib" != "X/usr/lib" -a "XC:/Program Files (x86)/StonksBot/lib" != "X/usr/lib64"; then
-           CURLLIBDIR="-LC:/Program Files (x86)/StonksBot/lib "
+        if test "XC:/Program Files/StonksBot/lib" != "X/usr/lib" -a "XC:/Program Files/StonksBot/lib" != "X/usr/lib64"; then
+           CURLLIBDIR="-LC:/Program Files/StonksBot/lib "
         else
            CURLLIBDIR=""
         fi
         if test "Xno" = "Xyes"; then
-          echo ${CURLLIBDIR}-lcurl  -lmingw32 -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+          echo ${CURLLIBDIR}-lcurl  -lwinmm -lws2_32 -ladvapi32 -lcrypt32
         else
           echo ${CURLLIBDIR}-lcurl
         fi
@@ -172,7 +172,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo C:/Program Files (x86)/StonksBot/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+          echo C:/Program Files/StonksBot/lib/libcurl.lib /machine:x64  -lwinmm -lws2_32 -ladvapi32 -lcrypt32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1

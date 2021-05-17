@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.20/Modules/CMakeParseArguments.cmake
+D:/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+D:/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-3.20/Modules/ExternalProject.cmake
+D:/CMake/share/cmake-3.20/Modules/FindGit.cmake
+D:/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+D:/Github/StonksBot/dependencies/sleepy-discord/CMakeLists.txt
+D:/Github/StonksBot/dependencies/sleepy-discord/buildtools/cmake/DownloadProject.CMakeLists.cmake.in
+D:/Github/StonksBot/dependencies/sleepy-discord/buildtools/cmake/DownloadProject.cmake
+D:/Github/StonksBot/dependencies/sleepy-discord/include/sleepy_discord/version-non.h.in

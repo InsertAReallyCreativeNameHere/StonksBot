@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.20/Modules/BasicConfigVersion-ExactVersion.cmake.in
+D:/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp/CMakeLists.txt
+D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp/cmake/CMakeHelpers.cmake
+D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp/websocketpp-config.cmake.in

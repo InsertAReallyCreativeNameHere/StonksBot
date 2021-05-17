@@ -1,0 +1,3 @@
+D:\Github\StonksBot\build\dependencies\sleepy-discord\lib\x86-Unknown-Debug-Win32\StonksBot\Debug\sleepy-discord.pdb
+D:\Github\StonksBot\build\dependencies\sleepy-discord\sleepy_discord\sleepy-discord.dir\Debug\sleepy-discord.pdb
+D:\Github\StonksBot\build\dependencies\sleepy-discord\lib\x64-Unknown-Debug-Win32\StonksBot\Debug\sleepy-discord.pdb

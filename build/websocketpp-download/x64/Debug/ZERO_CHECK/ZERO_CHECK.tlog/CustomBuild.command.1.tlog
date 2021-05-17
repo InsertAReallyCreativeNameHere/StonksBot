@@ -1,0 +1,10 @@
+^D:\GITHUB\STONKSBOT\BUILD\WEBSOCKETPP-DOWNLOAD\CMAKEFILES\A99AE7218FD9D77EB9104A8E1EF12904\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/Github/StonksBot/build/websocketpp-download -BD:/Github/StonksBot/build/websocketpp-download --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Github/StonksBot/build/websocketpp-download/websocketpp-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
