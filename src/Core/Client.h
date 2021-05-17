@@ -8,9 +8,6 @@ namespace stocc
     {
     public:
         using SleepyDiscord::DiscordClient::DiscordClient;
-        void onMessage(SleepyDiscord::Message message) override
-        {
-            sendMessage(message.channelID, "test" + message.author.username, SleepyDiscord::Async);
-        }
+        void onMessage(SleepyDiscord::Message message) override;
     };
 }

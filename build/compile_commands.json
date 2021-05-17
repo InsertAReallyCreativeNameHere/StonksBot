@@ -1,0 +1,907 @@
+[
+{
+  "directory": "D:/Github/StonksBot/build",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/StonksBot.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\StonksBot.dir\\src\\Core\\Client.cpp.obj -c D:\\Github\\StonksBot\\src\\Core\\Client.cpp",
+  "file": "D:/Github/StonksBot/src/Core/Client.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/StonksBot.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\StonksBot.dir\\src\\main.cpp.obj -c D:\\Github\\StonksBot\\src\\main.cpp",
+  "file": "D:/Github/StonksBot/src/main.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\file.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\file.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/file.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\timeval.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\timeval.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/timeval.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\base64.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\base64.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/base64.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostip.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostip.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostip.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\progress.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\progress.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/progress.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\formdata.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\formdata.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/formdata.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\cookie.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\cookie.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/cookie.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\sendf.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\sendf.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/sendf.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\ftp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\ftp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/ftp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\url.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\url.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/url.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\dict.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\dict.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/dict.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\if2ip.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\if2ip.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/if2ip.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\speedcheck.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\speedcheck.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/speedcheck.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\ldap.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\ldap.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/ldap.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\version.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\version.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/version.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\getenv.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\getenv.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/getenv.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\escape.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\escape.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/escape.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\mprintf.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\mprintf.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/mprintf.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\telnet.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\telnet.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/telnet.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\netrc.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\netrc.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/netrc.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\getinfo.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\getinfo.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/getinfo.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\transfer.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\transfer.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/transfer.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\strcase.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\strcase.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/strcase.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\easy.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\easy.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/easy.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\security.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\security.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/security.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_fnmatch.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_fnmatch.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_fnmatch.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\fileinfo.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\fileinfo.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/fileinfo.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\ftplistparser.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\ftplistparser.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/ftplistparser.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\wildcard.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\wildcard.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/wildcard.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\krb5.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\krb5.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/krb5.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\memdebug.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\memdebug.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/memdebug.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http_chunks.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http_chunks.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http_chunks.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\strtok.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\strtok.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/strtok.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\connect.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\connect.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/connect.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\llist.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\llist.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/llist.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hash.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hash.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hash.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\multi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\multi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/multi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\content_encoding.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\content_encoding.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/content_encoding.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\share.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\share.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/share.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http_digest.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http_digest.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http_digest.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\md4.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\md4.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/md4.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\md5.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\md5.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/md5.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http_negotiate.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http_negotiate.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http_negotiate.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\inet_pton.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\inet_pton.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/inet_pton.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\strtoofft.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\strtoofft.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/strtoofft.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\strerror.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\strerror.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/strerror.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\amigaos.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\amigaos.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/amigaos.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostasyn.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostasyn.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostasyn.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostip4.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostip4.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostip4.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostip6.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostip6.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostip6.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostsyn.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostsyn.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostsyn.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\inet_ntop.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\inet_ntop.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/inet_ntop.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\parsedate.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\parsedate.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/parsedate.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\select.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\select.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/select.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\tftp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\tftp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/tftp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\splay.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\splay.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/splay.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\strdup.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\strdup.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/strdup.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\socks.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\socks.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/socks.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_addrinfo.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_addrinfo.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_addrinfo.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\socks_gssapi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\socks_gssapi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/socks_gssapi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\socks_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\socks_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/socks_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\slist.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\slist.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/slist.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\nonblock.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\nonblock.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/nonblock.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_memrchr.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_memrchr.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_memrchr.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\imap.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\imap.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/imap.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\pop3.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\pop3.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/pop3.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\smtp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\smtp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/smtp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\pingpong.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\pingpong.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/pingpong.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\rtsp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\rtsp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/rtsp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_threads.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_threads.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_threads.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\warnless.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\warnless.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/warnless.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hmac.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hmac.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hmac.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_rtmp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_rtmp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_rtmp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\openldap.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\openldap.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/openldap.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_gethostname.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_gethostname.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_gethostname.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\gopher.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\gopher.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/gopher.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\idn_win32.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\idn_win32.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/idn_win32.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http_proxy.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http_proxy.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http_proxy.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\non-ascii.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\non-ascii.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/non-ascii.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\asyn-ares.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\asyn-ares.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/asyn-ares.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\asyn-thread.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\asyn-thread.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/asyn-thread.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_gssapi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_gssapi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_gssapi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http_ntlm.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http_ntlm.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http_ntlm.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_ntlm_wb.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_ntlm_wb.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_ntlm_wb.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_ntlm_core.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_ntlm_core.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_ntlm_core.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_sasl.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_sasl.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_sasl.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\rand.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\rand.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/rand.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_multibyte.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_multibyte.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_multibyte.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\hostcheck.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\hostcheck.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/hostcheck.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\conncache.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\conncache.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/conncache.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\dotdot.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\dotdot.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/dotdot.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\x509asn1.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\x509asn1.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/x509asn1.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\http2.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\http2.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/http2.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\smb.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\smb.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/smb.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_endian.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_endian.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_endian.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_des.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_des.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_des.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\system_win32.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\system_win32.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/system_win32.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\mime.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\mime.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/mime.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\sha256.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\sha256.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/sha256.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\setopt.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\setopt.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/setopt.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_path.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_path.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_path.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_ctype.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_ctype.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_ctype.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_range.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_range.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_range.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\psl.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\psl.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/psl.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\doh.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\doh.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/doh.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\urlapi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\urlapi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/urlapi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\curl_get_line.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\curl_get_line.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/curl_get_line.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\altsvc.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\altsvc.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/altsvc.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\socketpair.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\socketpair.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/socketpair.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\rename.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\rename.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/rename.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\vauth.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\vauth.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/vauth.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\cleartext.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\cleartext.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/cleartext.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\cram.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\cram.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/cram.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\digest.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\digest.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/digest.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\digest_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\digest_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/digest_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\krb5_gssapi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\krb5_gssapi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/krb5_gssapi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\krb5_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\krb5_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/krb5_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\ntlm.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\ntlm.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/ntlm.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\ntlm_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\ntlm_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/ntlm_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\oauth2.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\oauth2.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/oauth2.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\spnego_gssapi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\spnego_gssapi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/spnego_gssapi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vauth\\spnego_sspi.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vauth\\spnego_sspi.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vauth/spnego_sspi.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\openssl.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\openssl.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/openssl.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\gtls.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\gtls.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/gtls.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\vtls.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\vtls.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/vtls.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\nss.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\nss.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/nss.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\mbedtls_threadlock.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\mbedtls_threadlock.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/mbedtls_threadlock.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\wolfssl.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\wolfssl.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/wolfssl.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\schannel.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\schannel.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/schannel.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\schannel_verify.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\schannel_verify.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/schannel_verify.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\sectransp.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\sectransp.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/sectransp.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\gskit.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\gskit.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/gskit.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\mbedtls.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\mbedtls.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/mbedtls.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\mesalink.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\mesalink.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/mesalink.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vtls\\bearssl.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vtls\\bearssl.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vtls/bearssl.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vquic\\ngtcp2.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vquic\\ngtcp2.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vquic/ngtcp2.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vquic\\quiche.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vquic\\quiche.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vquic/quiche.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vssh\\libssh2.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vssh\\libssh2.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vssh/libssh2.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vssh\\libssh.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vssh\\libssh.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vssh/libssh.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/_deps/curl-build/lib",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\gcc.exe -DBUILDING_LIBCURL -DCURL_HIDDEN_SYMBOLS -DHAVE_CONFIG_H -DUSE_SYSTEM_CURL -DUSE_WINSSL -D_USRDLL -D_WIN32_WINNT=0x0600 @CMakeFiles/libcurl.dir/includes_C.rsp   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -g -fvisibility=hidden -o CMakeFiles\\libcurl.dir\\vssh\\wolfssh.c.obj -c D:\\Github\\StonksBot\\build\\_deps\\curl-src\\lib\\vssh\\wolfssh.c",
+  "file": "D:/Github/StonksBot/build/_deps/curl-src/lib/vssh/wolfssh.c"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\auth.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/auth.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\cookies.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/cookies.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\cprtypes.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/cprtypes.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\curl_container.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/curl_container.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\curlholder.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/curlholder.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\error.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/error.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\multipart.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/multipart.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\parameters.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/parameters.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\payload.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/payload.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\proxies.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/proxies.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\session.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/session.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\timeout.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/timeout.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\unix_socket.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/unix_socket.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DUSE_SYSTEM_CURL -DUSE_WINSSL @CMakeFiles/cpr.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -std=gnu++11 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\deps\\cpr\\cpr\\util.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/cpr/util.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\asio_udp.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\asio_udp.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/asio_udp.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\attachment.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\attachment.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/attachment.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\channel.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\channel.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/channel.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\client.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\client.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/client.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\cpr_session.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\cpr_session.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/cpr_session.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\default_functions.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\default_functions.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/default_functions.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\embed.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\embed.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/embed.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\endpoints.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\endpoints.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/endpoints.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\gateway.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\gateway.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/gateway.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\http.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\http.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/http.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\invite.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\invite.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/invite.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\json_wrapper.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\json_wrapper.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/json_wrapper.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\message.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\message.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/message.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\permissions.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\permissions.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/permissions.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\sd_error.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\sd_error.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/sd_error.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\server.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\server.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/server.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\user.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\user.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/user.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\uwebsockets_websocket.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\uwebsockets_websocket.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\voice.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\voice.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/voice.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\voice_connection.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\voice_connection.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/voice_connection.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\webhook.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\webhook.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/webhook.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\websocketpp_websocket.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\websocketpp_websocket.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build/dependencies/sleepy-discord/sleepy_discord",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/sleepy-discord.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\sleepy-discord.dir\\zlib-ng_compression.cpp.obj -c D:\\Github\\StonksBot\\dependencies\\sleepy-discord\\sleepy_discord\\zlib-ng_compression.cpp",
+  "file": "D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp"
+}
+]

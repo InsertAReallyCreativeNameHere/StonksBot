@@ -3,7 +3,7 @@ if(NOT EXISTS "D:/Github/StonksBot/build/_deps/curl-build/install_manifest.txt")
 endif()
 
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/StonksBot")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/StonksBot")
 endif()
 message(${CMAKE_INSTALL_PREFIX})
 

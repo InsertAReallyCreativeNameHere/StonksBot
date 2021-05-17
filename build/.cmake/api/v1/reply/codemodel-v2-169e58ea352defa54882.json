@@ -1,0 +1,289 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "dependencies/sleepy-discord",
+					"childIndexes" : 
+					[
+						2,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "dependencies/sleepy-discord"
+				},
+				{
+					"build" : "dependencies/sleepy-discord/deps/cpr",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "dependencies/sleepy-discord/deps/cpr"
+				},
+				{
+					"build" : "_deps/curl-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/curl-src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/curl-build/lib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "build/_deps/curl-src/lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "dependencies/sleepy-discord/deps/cpr/cpr",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "dependencies/sleepy-discord/deps/cpr/cpr",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "dependencies/sleepy-discord/deps/cpr/include",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "dependencies/sleepy-discord/deps/cpr/include"
+				},
+				{
+					"build" : "dependencies/sleepy-discord/deps/websocketpp",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "dependencies/sleepy-discord/deps/websocketpp"
+				},
+				{
+					"build" : "dependencies/sleepy-discord/deps/websocketpp/websocketpp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "dependencies/sleepy-discord/deps/websocketpp/websocketpp"
+				},
+				{
+					"build" : "dependencies/sleepy-discord/sleepy_discord",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "dependencies/sleepy-discord/sleepy_discord",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "StonksBot",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9
+					],
+					"name" : "sleepy-discord",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						5,
+						6
+					],
+					"name" : "cpr",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "CURL",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "websocketpp",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "StonksBot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StonksBot-Debug-78e35f884a7556f71ae6.json",
+					"name" : "StonksBot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cpr::@e5d5e361d5d2e4794242",
+					"jsonFile" : "target-cpr-Debug-afc1645e36725a9d39f4.json",
+					"name" : "cpr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libcurl::@7349aeacaff41deceb36",
+					"jsonFile" : "target-libcurl-Debug-7bddaa9fdd016489d4db.json",
+					"name" : "libcurl",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sleepy-discord::@cf3d41d1d73f85d85d1f",
+					"jsonFile" : "target-sleepy-discord-Debug-af046333b55c4cda1811.json",
+					"name" : "sleepy-discord",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@b95861b2ba384b5171eb",
+					"jsonFile" : "target-uninstall-Debug-a2750eb7871f7d64b219.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Github/StonksBot/build",
+		"source" : "D:/Github/StonksBot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

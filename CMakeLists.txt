@@ -68,10 +68,10 @@ file(GLOB_RECURSE STONK configure_depends
     "${CMAKE_SOURCE_DIR}/src/*.cpp"
 )
 
-set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/${BUILD_ARCH}-OpenSSL-Windows")
+# set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl")
 add_subdirectory(dependencies/sleepy-discord)
-target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_)
-target_link_libraries(sleepy-discord PUBLIC ws2_32)
+target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_ _SILENCE_CLANG_COROUTINE_MESSAGE)
+target_link_libraries(sleepy-discord PUBLIC ssl crypto ws2_32)
 
 add_executable(StonksBot ${STONK})
 
