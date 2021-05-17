@@ -1,0 +1,6 @@
+[submodule "dependencies/sleepy-discord"]
+	path = dependencies/sleepy-discord
+	url = https://github.com/yourWaifu/sleepy-discord.git
+[submodule "dependencies/openssl-cmake"]
+	path = dependencies/openssl-cmake
+	url = https://github.com/janbar/openssl-cmake.git
