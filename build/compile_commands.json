@@ -6,6 +6,11 @@
 },
 {
   "directory": "D:/Github/StonksBot/build",
+  "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/StonksBot.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\StonksBot.dir\\src\\Core\\CommandHandler.cpp.obj -c D:\\Github\\StonksBot\\src\\Core\\CommandHandler.cpp",
+  "file": "D:/Github/StonksBot/src/Core/CommandHandler.cpp"
+},
+{
+  "directory": "D:/Github/StonksBot/build",
   "command": "d:\\Github\\StonksBot\\..\\CykaBlyat-Tools\\msys64\\mingw64\\bin\\g++.exe -DCURL_STATICLIB -DEXISTENT_ASIO -DEXISTENT_CPR -DEXISTENT_WEBSOCKETPP -DNONEXISTENT_OPUS -DNONEXISTENT_SODIUM -DNONEXISTENT_UWEBSOCKETS -DNONEXISTENT_ZLIB_NG -DSLEEPY_DISCORD_CMAKE -D_SILENCE_CLANG_COROUTINE_MESSAGE -D_WEBSOCKETPP_CPP11_THREAD_ @CMakeFiles/StonksBot.dir/includes_CXX.rsp  -std=c++20 -fconcepts -Wall -Wextra -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-but-set-variable -O0 -g -Wall -o CMakeFiles\\StonksBot.dir\\src\\main.cpp.obj -c D:\\Github\\StonksBot\\src\\main.cpp",
   "file": "D:/Github/StonksBot/src/main.cpp"
 },

@@ -249,6 +249,30 @@ src/Core/Client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonksBot.dir\build.make CMakeFiles/StonksBot.dir/src/Core/Client.cpp.s
 .PHONY : src/Core/Client.cpp.s
 
+src/Core/CommandHandler.obj: src/Core/CommandHandler.cpp.obj
+.PHONY : src/Core/CommandHandler.obj
+
+# target to build an object file
+src/Core/CommandHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonksBot.dir\build.make CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj
+.PHONY : src/Core/CommandHandler.cpp.obj
+
+src/Core/CommandHandler.i: src/Core/CommandHandler.cpp.i
+.PHONY : src/Core/CommandHandler.i
+
+# target to preprocess a source file
+src/Core/CommandHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonksBot.dir\build.make CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.i
+.PHONY : src/Core/CommandHandler.cpp.i
+
+src/Core/CommandHandler.s: src/Core/CommandHandler.cpp.s
+.PHONY : src/Core/CommandHandler.s
+
+# target to generate assembly for a file
+src/Core/CommandHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StonksBot.dir\build.make CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.s
+.PHONY : src/Core/CommandHandler.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -293,6 +317,9 @@ help:
 	@echo ... src/Core/Client.obj
 	@echo ... src/Core/Client.i
 	@echo ... src/Core/Client.s
+	@echo ... src/Core/CommandHandler.obj
+	@echo ... src/Core/CommandHandler.i
+	@echo ... src/Core/CommandHandler.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

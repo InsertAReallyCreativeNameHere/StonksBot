@@ -83,11 +83,26 @@ CMakeFiles/StonksBot.dir/src/Core/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StonksBot.dir/src/Core/Client.cpp.s"
 	d:\Github\StonksBot\..\CykaBlyat-Tools\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Github\StonksBot\src\Core\Client.cpp -o CMakeFiles\StonksBot.dir\src\Core\Client.cpp.s
 
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj: CMakeFiles/StonksBot.dir/flags.make
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj: CMakeFiles/StonksBot.dir/includes_CXX.rsp
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj: ../src/Core/CommandHandler.cpp
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj: CMakeFiles/StonksBot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\StonksBot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj"
+	d:\Github\StonksBot\..\CykaBlyat-Tools\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj -MF CMakeFiles\StonksBot.dir\src\Core\CommandHandler.cpp.obj.d -o CMakeFiles\StonksBot.dir\src\Core\CommandHandler.cpp.obj -c D:\Github\StonksBot\src\Core\CommandHandler.cpp
+
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.i"
+	d:\Github\StonksBot\..\CykaBlyat-Tools\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\StonksBot\src\Core\CommandHandler.cpp > CMakeFiles\StonksBot.dir\src\Core\CommandHandler.cpp.i
+
+CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.s"
+	d:\Github\StonksBot\..\CykaBlyat-Tools\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Github\StonksBot\src\Core\CommandHandler.cpp -o CMakeFiles\StonksBot.dir\src\Core\CommandHandler.cpp.s
+
 CMakeFiles/StonksBot.dir/src/main.cpp.obj: CMakeFiles/StonksBot.dir/flags.make
 CMakeFiles/StonksBot.dir/src/main.cpp.obj: CMakeFiles/StonksBot.dir/includes_CXX.rsp
 CMakeFiles/StonksBot.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/StonksBot.dir/src/main.cpp.obj: CMakeFiles/StonksBot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\StonksBot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StonksBot.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\StonksBot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StonksBot.dir/src/main.cpp.obj"
 	d:\Github\StonksBot\..\CykaBlyat-Tools\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StonksBot.dir/src/main.cpp.obj -MF CMakeFiles\StonksBot.dir\src\main.cpp.obj.d -o CMakeFiles\StonksBot.dir\src\main.cpp.obj -c D:\Github\StonksBot\src\main.cpp
 
 CMakeFiles/StonksBot.dir/src/main.cpp.i: cmake_force
@@ -101,12 +116,14 @@ CMakeFiles/StonksBot.dir/src/main.cpp.s: cmake_force
 # Object files for target StonksBot
 StonksBot_OBJECTS = \
 "CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj" \
+"CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj" \
 "CMakeFiles/StonksBot.dir/src/main.cpp.obj"
 
 # External object files for target StonksBot
 StonksBot_EXTERNAL_OBJECTS =
 
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj
+../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/src/main.cpp.obj
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/build.make
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: dependencies/sleepy-discord/lib/x86-MinGW-Debug-Win32/StonksBot/libsleepy-discord.a
@@ -117,7 +134,7 @@ StonksBot_EXTERNAL_OBJECTS =
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/linklibs.rsp
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/objects1.rsp
 ../bin/x86-MinGW-Debug-Win32/StonksBot/StonksBot.exe: CMakeFiles/StonksBot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\StonksBot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\bin\x86-MinGW-Debug-Win32\StonksBot\StonksBot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\StonksBot\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ..\bin\x86-MinGW-Debug-Win32\StonksBot\StonksBot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StonksBot.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

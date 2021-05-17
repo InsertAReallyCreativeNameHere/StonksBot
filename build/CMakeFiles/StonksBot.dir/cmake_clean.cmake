@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../lib/x86-MinGW-Debug-Win32/StonksBot/libStonksBot.dll.a"
   "CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj"
   "CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj.d"
+  "CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj"
+  "CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj.d"
   "CMakeFiles/StonksBot.dir/src/main.cpp.obj"
   "CMakeFiles/StonksBot.dir/src/main.cpp.obj.d"
 )

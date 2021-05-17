@@ -240,7 +240,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "StonksBot::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-StonksBot-Debug-78e35f884a7556f71ae6.json",
+					"jsonFile" : "target-StonksBot-Debug-90819833b846198e1dff.json",
 					"name" : "StonksBot",
 					"projectIndex" : 0
 				},
@@ -261,7 +261,7 @@
 				{
 					"directoryIndex" : 9,
 					"id" : "sleepy-discord::@cf3d41d1d73f85d85d1f",
-					"jsonFile" : "target-sleepy-discord-Debug-af046333b55c4cda1811.json",
+					"jsonFile" : "target-sleepy-discord-Debug-9053885573394227f301.json",
 					"name" : "sleepy-discord",
 					"projectIndex" : 1
 				},

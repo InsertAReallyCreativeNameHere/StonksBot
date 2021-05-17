@@ -245,11 +245,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "libcurl::@7349aeacaff41deceb36"
+			"id" : "cpr::@e5d5e361d5d2e4794242"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "cpr::@e5d5e361d5d2e4794242"
+			"id" : "libcurl::@7349aeacaff41deceb36"
 		}
 	],
 	"id" : "sleepy-discord::@cf3d41d1d73f85d85d1f",

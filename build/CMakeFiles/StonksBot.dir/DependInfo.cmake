@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Github/StonksBot/src/Core/Client.cpp" "CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj" "gcc" "CMakeFiles/StonksBot.dir/src/Core/Client.cpp.obj.d"
+  "D:/Github/StonksBot/src/Core/CommandHandler.cpp" "CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj" "gcc" "CMakeFiles/StonksBot.dir/src/Core/CommandHandler.cpp.obj.d"
   "D:/Github/StonksBot/src/main.cpp" "CMakeFiles/StonksBot.dir/src/main.cpp.obj" "gcc" "CMakeFiles/StonksBot.dir/src/main.cpp.obj.d"
   )
 
