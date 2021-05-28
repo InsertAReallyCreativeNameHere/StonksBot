@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/StonksBot
+# Install script for directory: C:/Users/Administrator/Documents/GitHub/StonksBot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Github/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Administrator/Documents/GitHub/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Github/StonksBot/build/dependencies/sleepy-discord/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Github/StonksBot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Administrator/Documents/GitHub/StonksBot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

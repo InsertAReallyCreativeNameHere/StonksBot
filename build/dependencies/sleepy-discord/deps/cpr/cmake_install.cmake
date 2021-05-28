@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr
+# Install script for directory: C:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/deps/cpr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Github/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Administrator/Documents/GitHub/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Github/StonksBot/build/_deps/curl-build/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/GitHub/StonksBot/build/_deps/curl-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/deps/cpr/cpr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/cpr/include/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/deps/cpr/include/cmake_install.cmake")
 endif()
 

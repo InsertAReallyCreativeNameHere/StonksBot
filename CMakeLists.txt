@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.10)
 
 cmake_policy(SET CMP0079 NEW)
 
+set(BUILD_SHARED_LIBS OFF)
+set(CMAKE_FIND_LIBRARY_SUFFIXES ${CMAKE_STATIC_LIBRARY_SUFFIX})
+set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++")
+
 if (WIN32)
     set(BUILD_PLATFORM Win32)
 elseif (UNIX AND NOT APPLE)
@@ -68,12 +73,19 @@ file(GLOB_RECURSE STONK configure_depends
     "${CMAKE_SOURCE_DIR}/src/*.cpp"
 )
 
-# set(OPENSSL_ROOT_DIR "${CMAKE_SOURCE_DIR}/dependencies/openssl")
+set(OPENSSL_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/../CykaBlyat-Tools/msys64/mingw64/include")
 add_subdirectory(dependencies/sleepy-discord)
 target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_ _SILENCE_CLANG_COROUTINE_MESSAGE)
-target_link_libraries(sleepy-discord PUBLIC ssl crypto ws2_32)
+target_link_libraries(sleepy-discord PUBLIC
+    "${CMAKE_STATIC_LIBRARY_PREFIX}ssl${CMAKE_STATIC_LIBRARY_SUFFIX}"
+    "${CMAKE_STATIC_LIBRARY_PREFIX}crypto${CMAKE_STATIC_LIBRARY_SUFFIX}"
+    ws2_32
+)
 
 add_executable(StonksBot ${STONK})
+
+set_target_properties(StonksBot PROPERTIES LINK_SEARCH_START_STATIC 1)
+set_target_properties(StonksBot PROPERTIES LINK_SEARCH_END_STATIC 1)
 
 target_link_libraries(StonksBot PUBLIC
     sleepy-discord

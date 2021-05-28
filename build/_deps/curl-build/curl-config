@@ -76,7 +76,7 @@ while test $# -gt 0; do
         ;;
 
     --cc)
-        echo "d:/Github/StonksBot/../CykaBlyat-Tools/msys64/mingw64/bin/gcc.exe"
+        echo "c:/Users/Administrator/Documents/GitHub/StonksBot/../CykaBlyat-Tools/msys64/mingw64/bin/gcc.exe"
         ;;
 
     --prefix)
@@ -172,7 +172,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xyes" != "Xno" ; then
-          echo C:/Program Files (x86)/StonksBot/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+          echo C:/Program Files (x86)/StonksBot/lib/libcurl.a  -static-libgcc -static-libstdc++  -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32 -lcrypt32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1

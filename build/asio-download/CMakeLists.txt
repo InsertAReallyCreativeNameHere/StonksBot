@@ -8,8 +8,8 @@ project(asio-download NONE)
 include(ExternalProject)
 ExternalProject_Add(asio-download
                     GIT_REPOSITORY;https://github.com/chriskohlhoff/asio.git;GIT_TAG;master;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio"
-                    BINARY_DIR          "D:/Github/StonksBot/build/asio-build"
+                    SOURCE_DIR          "C:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/deps/asio"
+                    BINARY_DIR          "C:/Users/Administrator/Documents/GitHub/StonksBot/build/asio-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

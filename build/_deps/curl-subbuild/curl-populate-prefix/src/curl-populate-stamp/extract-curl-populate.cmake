@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "D:/Github/StonksBot/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.69.1.tar.xz" ABSOLUTE)
-get_filename_component(directory "D:/Github/StonksBot/build/_deps/curl-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Administrator/Documents/GitHub/StonksBot/build/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.69.1.tar.xz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Administrator/Documents/GitHub/StonksBot/build/_deps/curl-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

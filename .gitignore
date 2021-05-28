@@ -1,0 +1,6 @@
+/build/
+/bin/
+/lib/
+/build/asio-build/
+/build/cpr-build/
+/build/websocketpp-build/

@@ -1,1 +1,1 @@
--ID:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr/include -ID:/Github/StonksBot/build/_deps/curl-src/include -ID:/Github/StonksBot/build/_deps/curl-build/include/curl
+-IC:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/deps/cpr/include -IC:/Users/Administrator/Documents/GitHub/StonksBot/build/_deps/curl-src/include -IC:/Users/Administrator/Documents/GitHub/StonksBot/build/_deps/curl-build/include/curl

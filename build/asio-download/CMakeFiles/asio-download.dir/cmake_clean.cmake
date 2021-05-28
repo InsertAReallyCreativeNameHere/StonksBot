@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "asio-download-prefix/src/asio-download-stamp/asio-download-install"
   "asio-download-prefix/src/asio-download-stamp/asio-download-mkdir"
   "asio-download-prefix/src/asio-download-stamp/asio-download-patch"
+  "asio-download-prefix/src/asio-download-stamp/asio-download-skip-update"
   "asio-download-prefix/src/asio-download-stamp/asio-download-test"
 )
 

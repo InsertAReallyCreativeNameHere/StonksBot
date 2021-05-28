@@ -1,5 +1,6 @@
 #pragma once
 
+#include <initializer_list>
 #include <list>
 #include <string>
 #include <sleepy_discord/sleepy_discord.h>
@@ -11,23 +12,24 @@ namespace stocc
         std::string name;
         std::string description;
 
-        std::list<Command> subCommands;
+        std::initializer_list<Command> subCommands;
+    };
+
+    struct CommandOutput
+    {
+        SleepyDiscord::Snowflake<SleepyDiscord::Channel> channelID;
+        std::string message;
+        SleepyDiscord::Embed embed;
     };
 
     class StonksClient;
     class CommandHandler final
     {
         static std::string prefix;
-        static std::list<Command> commandList;
+        static std::initializer_list<Command> commandList;
     public:
         CommandHandler() = delete;
 
-        struct CommandOutput
-        {
-            SleepyDiscord::Snowflake<SleepyDiscord::Channel> channelID;
-            std::string message;
-            SleepyDiscord::Embed embed;
-        };
         static CommandOutput handleMessage(const SleepyDiscord::Message& message);
 
         friend class StonksClient;

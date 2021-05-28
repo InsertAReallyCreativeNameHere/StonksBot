@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp/websocketpp
+# Install script for directory: C:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/deps/websocketpp/websocketpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Github/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Administrator/Documents/GitHub/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -46,6 +46,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/StonksBot/include/" TYPE DIRECTORY FILES "D:/Github/StonksBot/websocketpp" FILES_MATCHING REGEX "/[^/]*\\.hpp[^/]*$")
+file(INSTALL DESTINATION "C:/Program Files (x86)/StonksBot/include/" TYPE DIRECTORY FILES "C:/Users/Administrator/Documents/GitHub/StonksBot/websocketpp" FILES_MATCHING REGEX "/[^/]*\\.hpp[^/]*$")
 endif()
 

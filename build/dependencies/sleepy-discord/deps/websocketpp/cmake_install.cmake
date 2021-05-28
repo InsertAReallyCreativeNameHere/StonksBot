@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp
+# Install script for directory: C:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/deps/websocketpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Github/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Administrator/Documents/GitHub/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -47,14 +47,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "C:/Program Files (x86)/StonksBot/cmake" TYPE FILE FILES
-    "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-config.cmake"
-    "D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-configVersion.cmake"
+    "C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-config.cmake"
+    "C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-configVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Github/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/websocketpp/cmake_install.cmake")
+  include("C:/Users/Administrator/Documents/GitHub/StonksBot/build/dependencies/sleepy-discord/deps/websocketpp/websocketpp/cmake_install.cmake")
 
 endif()
 

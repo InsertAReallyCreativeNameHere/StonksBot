@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/StonksBot/dependencies/sleepy-discord/sleepy_discord
+# Install script for directory: C:/Users/Administrator/Documents/GitHub/StonksBot/dependencies/sleepy-discord/sleepy_discord
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Github/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Administrator/Documents/GitHub/CykaBlyat-Tools/msys64/mingw64/bin/objdump.exe")
 endif()
 
