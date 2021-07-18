@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "cpr-download-prefix/src/cpr-download-stamp/cpr-download-install"
   "cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir"
   "cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch"
-  "cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update"
   "cpr-download-prefix/src/cpr-download-stamp/cpr-download-test"
 )
 
