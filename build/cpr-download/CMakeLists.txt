@@ -8,7 +8,7 @@ project(cpr-download NONE)
 include(ExternalProject)
 ExternalProject_Add(cpr-download
                     GIT_REPOSITORY;https://github.com/whoshuu/cpr.git;GIT_TAG;e627e47;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "D:/Github/StonksBot/dependencies/sleepy-discord/deps/cpr"
+                    SOURCE_DIR          "D:/Github/StonksBot/external/sleepy-discord/deps/cpr"
                     BINARY_DIR          "D:/Github/StonksBot/build/cpr-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""

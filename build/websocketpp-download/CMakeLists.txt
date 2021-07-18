@@ -8,7 +8,7 @@ project(websocketpp-download NONE)
 include(ExternalProject)
 ExternalProject_Add(websocketpp-download
                     GIT_REPOSITORY;https://github.com/zaphoyd/websocketpp.git;GIT_TAG;master;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "D:/Github/StonksBot/dependencies/sleepy-discord/deps/websocketpp"
+                    SOURCE_DIR          "D:/Github/StonksBot/external/sleepy-discord/deps/websocketpp"
                     BINARY_DIR          "D:/Github/StonksBot/build/websocketpp-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""

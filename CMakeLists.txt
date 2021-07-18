@@ -64,22 +64,50 @@ else()
     set(COMPILER "Unknown")
 endif()
 
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../lib/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
+# OpenSSL
 
-file(GLOB_RECURSE STONK configure_depends
-    "${CMAKE_SOURCE_DIR}/src/*.h"
-    "${CMAKE_SOURCE_DIR}/src/*.cpp"
+file (REMOVE ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build/CMakeCache.txt)
+
+message(STATUS "Configuring OpenSSL.")
+file(MAKE_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build)
+execute_process(COMMAND ${CMAKE_COMMAND} .. -G${CMAKE_GENERATOR} WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build)
+message(STATUS "Configured OpenSSL.")
+
+message(STATUS "Building OpenSSL.")
+include(ProcessorCount)
+ProcessorCount(Stonk_ProcCount)
+execute_process(COMMAND ${CMAKE_COMMAND} --build ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build --config ${CMAKE_BUILD_TYPE} --target all -j ${Stonk_ProcCount} WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build)
+message(STATUS "Built OpenSSL.")
+
+file(
+    COPY ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build/ssl/${CMAKE_STATIC_LIBRARY_PREFIX}ssl${CMAKE_STATIC_LIBRARY_SUFFIX}
+    DESTINATION ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build
+)
+file(
+    COPY ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build/crypto/${CMAKE_STATIC_LIBRARY_PREFIX}crypto${CMAKE_STATIC_LIBRARY_SUFFIX}
+    DESTINATION ${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build
 )
 
-set(OPENSSL_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/../CykaBlyat-Tools/msys64/mingw64/include")
-add_subdirectory(dependencies/sleepy-discord)
+# sleepy-discord
+set(OPENSSL_ROOT_DIR "${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build")
+set(OPENSSL_INCLUDE_DIR "${CMAKE_CURRENT_LIST_DIR}/external/openssl-cmake/build/include")
+add_subdirectory(external/sleepy-discord)
 target_compile_definitions(sleepy-discord PUBLIC _WEBSOCKETPP_CPP11_THREAD_ _SILENCE_CLANG_COROUTINE_MESSAGE)
 target_link_libraries(sleepy-discord PUBLIC
     "${CMAKE_STATIC_LIBRARY_PREFIX}ssl${CMAKE_STATIC_LIBRARY_SUFFIX}"
     "${CMAKE_STATIC_LIBRARY_PREFIX}crypto${CMAKE_STATIC_LIBRARY_SUFFIX}"
     ws2_32
+)
+
+# StonksBot
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../lib/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/${BUILD_ARCH}-${COMPILER}-${CMAKE_BUILD_TYPE}-${BUILD_PLATFORM}/StonksBot)
+
+file(GLOB_RECURSE STONK configure_depends
+    "${CMAKE_CURRENT_LIST_DIR}/src/*.h"
+    "${CMAKE_CURRENT_LIST_DIR}/src/*.cpp"
 )
 
 add_executable(StonksBot ${STONK})
@@ -91,6 +119,6 @@ target_link_libraries(StonksBot PUBLIC
     sleepy-discord
 )
 target_include_directories(StonksBot PUBLIC
-    "${CMAKE_SOURCE_DIR}/src"
-    "${CMAKE_SOURCE_DIR}/dependencies/sleepy-discord/include"
+    "${CMAKE_CURRENT_LIST_DIR}/src"
+    "${CMAKE_CURRENT_LIST_DIR}/external/sleepy-discord/include"
 )

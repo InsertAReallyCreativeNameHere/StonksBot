@@ -1,6 +1,6 @@
-[submodule "dependencies/sleepy-discord"]
-	path = dependencies/sleepy-discord
+[submodule "external/sleepy-discord"]
+	path = external/sleepy-discord
 	url = https://github.com/yourWaifu/sleepy-discord.git
-[submodule "dependencies/openssl-cmake"]
-	path = dependencies/openssl-cmake
+[submodule "external/openssl-cmake"]
+	path = external/openssl-cmake
 	url = https://github.com/janbar/openssl-cmake.git

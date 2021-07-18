@@ -5,11 +5,11 @@ if(NOT "D:/Github/StonksBot/build/asio-download/asio-download-prefix/src/asio-do
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "D:/Github/StonksBot/external/sleepy-discord/deps/asio"
   RESULT_VARIABLE error_code
   )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio'")
+  message(FATAL_ERROR "Failed to remove directory: 'D:/Github/StonksBot/external/sleepy-discord/deps/asio'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -18,7 +18,7 @@ set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "D:/Git/cmd/git.exe"  clone --no-checkout --config "advice.detachedHead=false" "https://github.com/chriskohlhoff/asio.git" "asio"
-    WORKING_DIRECTORY "D:/Github/StonksBot/dependencies/sleepy-discord/deps"
+    WORKING_DIRECTORY "D:/Github/StonksBot/external/sleepy-discord/deps"
     RESULT_VARIABLE error_code
     )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -33,7 +33,7 @@ endif()
 
 execute_process(
   COMMAND "D:/Git/cmd/git.exe"  checkout master --
-  WORKING_DIRECTORY "D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio"
+  WORKING_DIRECTORY "D:/Github/StonksBot/external/sleepy-discord/deps/asio"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -44,12 +44,12 @@ set(init_submodules TRUE)
 if(init_submodules)
   execute_process(
     COMMAND "D:/Git/cmd/git.exe"  submodule update --recursive --init 
-    WORKING_DIRECTORY "D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio"
+    WORKING_DIRECTORY "D:/Github/StonksBot/external/sleepy-discord/deps/asio"
     RESULT_VARIABLE error_code
     )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'D:/Github/StonksBot/dependencies/sleepy-discord/deps/asio'")
+  message(FATAL_ERROR "Failed to update submodules in: 'D:/Github/StonksBot/external/sleepy-discord/deps/asio'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
