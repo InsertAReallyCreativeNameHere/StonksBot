@@ -1,65 +1,42 @@
-Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/x64/bin/clang.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-clang: error: unable to execute command: program not executable
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/x64/bin/clang.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-clang: error: unable to execute command: program not executable
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-
-
 Determining if the include file pthread.h exists failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_71f80 && [1/2] Building C object CMakeFiles/cmTC_71f80.dir/CheckIncludeFile.c.obj
-FAILED: CMakeFiles/cmTC_71f80.dir/CheckIncludeFile.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -MD -MT CMakeFiles/cmTC_71f80.dir/CheckIncludeFile.c.obj -MF CMakeFiles\cmTC_71f80.dir\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_71f80.dir/CheckIncludeFile.c.obj -c CheckIncludeFile.c
-CheckIncludeFile.c:1:10: fatal error: 'pthread.h' file not found
-#include <pthread.h>
-         ^~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0139c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0139c.dir\Debug\\" /Fd"cmTC_0139c.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_0139c.vcxproj]
 
 
 
 Determining if the function idn2_lookup_ul exists in the idn2;winmm;ws2_32;advapi32;crypt32 failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_88cee && [1/2] Building C object CMakeFiles/cmTC_88cee.dir/CheckFunctionExists.c.obj
-[2/2] Linking C executable cmTC_88cee.exe
-FAILED: cmTC_88cee.exe 
-cmd.exe /C "cd . && "D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -static-libgcc -static-libstdc++   -Xlinker /subsystem:console CMakeFiles/cmTC_88cee.dir/CheckFunctionExists.c.obj -o cmTC_88cee.exe -Xlinker /implib:cmTC_88cee.lib -Xlinker /pdb:cmTC_88cee.pdb -Xlinker /version:0.0   -lidn2.lib  -lwinmm.lib  -lws2_32.lib  -ladvapi32.lib  -lcrypt32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames && cd ."
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-lld-link: error: could not open 'idn2.lib': no such file or directory
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_deab4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=idn2_lookup_ul /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_deab4.dir\Debug\\" /Fd"cmTC_deab4.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'idn2.lib' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_deab4.vcxproj]
 
 
 
 Performing C SOURCE FILE Test USE_UNIX_SOCKETS failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_85682 && [1/2] Building C object CMakeFiles/cmTC_85682.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_85682.dir/src.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -DUSE_UNIX_SOCKETS  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_85682.dir/src.c.obj -MF CMakeFiles\cmTC_85682.dir\src.c.obj.d -o CMakeFiles/cmTC_85682.dir/src.c.obj -c src.c
-src.c:2:10: fatal error: 'sys/un.h' file not found
-#include <sys/un.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_77688.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D USE_UNIX_SOCKETS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77688.dir\Debug\\" /Fd"cmTC_77688.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c(2,10): fatal error C1083: Cannot open include file: 'sys/un.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_77688.vcxproj]
 
 
 Source file was:
@@ -75,14 +52,14 @@ int main()
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/filio.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_25ec5 && [1/2] Building C object CMakeFiles/cmTC_25ec5.dir/HAVE_SYS_FILIO_H.c.obj
-FAILED: CMakeFiles/cmTC_25ec5.dir/HAVE_SYS_FILIO_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_25ec5.dir/HAVE_SYS_FILIO_H.c.obj -MF CMakeFiles\cmTC_25ec5.dir\HAVE_SYS_FILIO_H.c.obj.d -o CMakeFiles/cmTC_25ec5.dir/HAVE_SYS_FILIO_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:7:10: fatal error: 'sys/filio.h' file not found
-#include <sys/filio.h>
-         ^~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_07c1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_FILIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07c1f.dir\Debug\\" /Fd"cmTC_07c1f.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_07c1f.vcxproj]
 
 
 Source:
@@ -100,14 +77,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/ioctl.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2bec6 && [1/2] Building C object CMakeFiles/cmTC_2bec6.dir/HAVE_SYS_IOCTL_H.c.obj
-FAILED: CMakeFiles/cmTC_2bec6.dir/HAVE_SYS_IOCTL_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_2bec6.dir/HAVE_SYS_IOCTL_H.c.obj -MF CMakeFiles\cmTC_2bec6.dir\HAVE_SYS_IOCTL_H.c.obj.d -o CMakeFiles/cmTC_2bec6.dir/HAVE_SYS_IOCTL_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c:7:10: fatal error: 'sys/ioctl.h' file not found
-#include <sys/ioctl.h>
-         ^~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5facd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_IOCTL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5facd.dir\Debug\\" /Fd"cmTC_5facd.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_5facd.vcxproj]
 
 
 Source:
@@ -125,14 +102,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/resource.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_cde3a && [1/2] Building C object CMakeFiles/cmTC_cde3a.dir/HAVE_SYS_RESOURCE_H.c.obj
-FAILED: CMakeFiles/cmTC_cde3a.dir/HAVE_SYS_RESOURCE_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_cde3a.dir/HAVE_SYS_RESOURCE_H.c.obj -MF CMakeFiles\cmTC_cde3a.dir\HAVE_SYS_RESOURCE_H.c.obj.d -o CMakeFiles/cmTC_cde3a.dir/HAVE_SYS_RESOURCE_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_RESOURCE_H.c:7:10: fatal error: 'sys/resource.h' file not found
-#include <sys/resource.h>
-         ^~~~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c57a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_RESOURCE_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c57a6.dir\Debug\\" /Fd"cmTC_c57a6.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_c57a6.vcxproj]
 
 
 Source:
@@ -150,14 +127,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_cf1a3 && [1/2] Building C object CMakeFiles/cmTC_cf1a3.dir/HAVE_SYS_UIO_H.c.obj
-FAILED: CMakeFiles/cmTC_cf1a3.dir/HAVE_SYS_UIO_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_cf1a3.dir/HAVE_SYS_UIO_H.c.obj -MF CMakeFiles\cmTC_cf1a3.dir\HAVE_SYS_UIO_H.c.obj.d -o CMakeFiles/cmTC_cf1a3.dir/HAVE_SYS_UIO_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c:9:10: fatal error: 'sys/uio.h' file not found
-#include <sys/uio.h>
-         ^~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e4262.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_UIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4262.dir\Debug\\" /Fd"cmTC_e4262.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9,10): fatal error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_e4262.vcxproj]
 
 
 Source:
@@ -177,14 +154,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_becb9 && [1/2] Building C object CMakeFiles/cmTC_becb9.dir/HAVE_SYS_UN_H.c.obj
-FAILED: CMakeFiles/cmTC_becb9.dir/HAVE_SYS_UN_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_becb9.dir/HAVE_SYS_UN_H.c.obj -MF CMakeFiles\cmTC_becb9.dir\HAVE_SYS_UN_H.c.obj.d -o CMakeFiles/cmTC_becb9.dir/HAVE_SYS_UN_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c:9:10: fatal error: 'sys/un.h' file not found
-#include <sys/un.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_98026.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_UN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98026.dir\Debug\\" /Fd"cmTC_98026.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9,10): fatal error C1083: Cannot open include file: 'sys/un.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_98026.vcxproj]
 
 
 Source:
@@ -204,14 +181,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_58fc2 && [1/2] Building C object CMakeFiles/cmTC_58fc2.dir/HAVE_SYS_XATTR_H.c.obj
-FAILED: CMakeFiles/cmTC_58fc2.dir/HAVE_SYS_XATTR_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_58fc2.dir/HAVE_SYS_XATTR_H.c.obj -MF CMakeFiles\cmTC_58fc2.dir\HAVE_SYS_XATTR_H.c.obj.d -o CMakeFiles/cmTC_58fc2.dir/HAVE_SYS_XATTR_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_XATTR_H.c:10:10: fatal error: 'sys/xattr.h' file not found
-#include <sys/xattr.h>
-         ^~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_86464.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_XATTR_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86464.dir\Debug\\" /Fd"cmTC_86464.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10,10): fatal error C1083: Cannot open include file: 'sys/xattr.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_86464.vcxproj]
 
 
 Source:
@@ -232,14 +209,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_c9c4d && [1/2] Building C object CMakeFiles/cmTC_c9c4d.dir/HAVE_ARPA_TFTP_H.c.obj
-FAILED: CMakeFiles/cmTC_c9c4d.dir/HAVE_ARPA_TFTP_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_c9c4d.dir/HAVE_ARPA_TFTP_H.c.obj -MF CMakeFiles\cmTC_c9c4d.dir\HAVE_ARPA_TFTP_H.c.obj.d -o CMakeFiles/cmTC_c9c4d.dir/HAVE_ARPA_TFTP_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_TFTP_H.c:10:10: fatal error: 'arpa/tftp.h' file not found
-#include <arpa/tftp.h>
-         ^~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2312d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ARPA_TFTP_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2312d.dir\Debug\\" /Fd"cmTC_2312d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10,10): fatal error C1083: Cannot open include file: 'arpa/tftp.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2312d.vcxproj]
 
 
 Source:
@@ -260,14 +237,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;crypto.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_5c58f && [1/2] Building C object CMakeFiles/cmTC_5c58f.dir/HAVE_CRYPTO_H.c.obj
-FAILED: CMakeFiles/cmTC_5c58f.dir/HAVE_CRYPTO_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_5c58f.dir/HAVE_CRYPTO_H.c.obj -MF CMakeFiles\cmTC_5c58f.dir\HAVE_CRYPTO_H.c.obj.d -o CMakeFiles/cmTC_5c58f.dir/HAVE_CRYPTO_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_CRYPTO_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_CRYPTO_H.c:11:10: fatal error: 'crypto.h' file not found
-#include <crypto.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5e25d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_CRYPTO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e25d.dir\Debug\\" /Fd"cmTC_5e25d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c(11,10): fatal error C1083: Cannot open include file: 'crypto.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_5e25d.vcxproj]
 
 
 Source:
@@ -289,14 +266,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;des.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_ffcfa && [1/2] Building C object CMakeFiles/cmTC_ffcfa.dir/HAVE_DES_H.c.obj
-FAILED: CMakeFiles/cmTC_ffcfa.dir/HAVE_DES_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_ffcfa.dir/HAVE_DES_H.c.obj -MF CMakeFiles\cmTC_ffcfa.dir\HAVE_DES_H.c.obj.d -o CMakeFiles/cmTC_ffcfa.dir/HAVE_DES_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_DES_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_DES_H.c:11:10: fatal error: 'des.h' file not found
-#include <des.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_36b51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_DES_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36b51.dir\Debug\\" /Fd"cmTC_36b51.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c(11,10): fatal error C1083: Cannot open include file: 'des.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_36b51.vcxproj]
 
 
 Source:
@@ -318,14 +295,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;err.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_110f0 && [1/2] Building C object CMakeFiles/cmTC_110f0.dir/HAVE_ERR_H.c.obj
-FAILED: CMakeFiles/cmTC_110f0.dir/HAVE_ERR_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_110f0.dir/HAVE_ERR_H.c.obj -MF CMakeFiles\cmTC_110f0.dir\HAVE_ERR_H.c.obj.d -o CMakeFiles/cmTC_110f0.dir/HAVE_ERR_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_ERR_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_ERR_H.c:11:10: fatal error: 'err.h' file not found
-#include <err.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_23d51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ERR_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23d51.dir\Debug\\" /Fd"cmTC_23d51.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c(11,10): fatal error C1083: Cannot open include file: 'err.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_23d51.vcxproj]
 
 
 Source:
@@ -347,14 +324,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_0c2f0 && [1/2] Building C object CMakeFiles/cmTC_0c2f0.dir/HAVE_IDN2_H.c.obj
-FAILED: CMakeFiles/cmTC_0c2f0.dir/HAVE_IDN2_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_0c2f0.dir/HAVE_IDN2_H.c.obj -MF CMakeFiles\cmTC_0c2f0.dir\HAVE_IDN2_H.c.obj.d -o CMakeFiles/cmTC_0c2f0.dir/HAVE_IDN2_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_IDN2_H.c:13:10: fatal error: 'idn2.h' file not found
-#include <idn2.h>
-         ^~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6b61f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_IDN2_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b61f.dir\Debug\\" /Fd"cmTC_6b61f.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13,10): fatal error C1083: Cannot open include file: 'idn2.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_6b61f.vcxproj]
 
 
 Source:
@@ -378,14 +355,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_4d87a && [1/2] Building C object CMakeFiles/cmTC_4d87a.dir/HAVE_IFADDRS_H.c.obj
-FAILED: CMakeFiles/cmTC_4d87a.dir/HAVE_IFADDRS_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_4d87a.dir/HAVE_IFADDRS_H.c.obj -MF CMakeFiles\cmTC_4d87a.dir\HAVE_IFADDRS_H.c.obj.d -o CMakeFiles/cmTC_4d87a.dir/HAVE_IFADDRS_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_IFADDRS_H.c:13:10: fatal error: 'ifaddrs.h' file not found
-#include <ifaddrs.h>
-         ^~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_319fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_IFADDRS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_319fc.dir\Debug\\" /Fd"cmTC_319fc.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13,10): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_319fc.vcxproj]
 
 
 Source:
@@ -409,14 +386,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_54604 && [1/2] Building C object CMakeFiles/cmTC_54604.dir/HAVE_KRB_H.c.obj
-FAILED: CMakeFiles/cmTC_54604.dir/HAVE_KRB_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_54604.dir/HAVE_KRB_H.c.obj -MF CMakeFiles\cmTC_54604.dir\HAVE_KRB_H.c.obj.d -o CMakeFiles/cmTC_54604.dir/HAVE_KRB_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_KRB_H.c:14:10: fatal error: 'krb.h' file not found
-#include <krb.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_99f31.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_KRB_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99f31.dir\Debug\\" /Fd"cmTC_99f31.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14,10): fatal error C1083: Cannot open include file: 'krb.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_99f31.vcxproj]
 
 
 Source:
@@ -441,14 +418,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_beb50 && [1/2] Building C object CMakeFiles/cmTC_beb50.dir/HAVE_LIBGEN_H.c.obj
-FAILED: CMakeFiles/cmTC_beb50.dir/HAVE_LIBGEN_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_beb50.dir/HAVE_LIBGEN_H.c.obj -MF CMakeFiles\cmTC_beb50.dir\HAVE_LIBGEN_H.c.obj.d -o CMakeFiles/cmTC_beb50.dir/HAVE_LIBGEN_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c:14:10: fatal error: 'libgen.h' file not found
-#include <libgen.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_876ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_LIBGEN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_876ba.dir\Debug\\" /Fd"cmTC_876ba.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14,10): fatal error C1083: Cannot open include file: 'libgen.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_876ba.vcxproj]
 
 
 Source:
@@ -473,14 +450,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_1ba56 && [1/2] Building C object CMakeFiles/cmTC_1ba56.dir/HAVE_NETINET_TCP_H.c.obj
-FAILED: CMakeFiles/cmTC_1ba56.dir/HAVE_NETINET_TCP_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_1ba56.dir/HAVE_NETINET_TCP_H.c.obj -MF CMakeFiles\cmTC_1ba56.dir\HAVE_NETINET_TCP_H.c.obj.d -o CMakeFiles/cmTC_1ba56.dir/HAVE_NETINET_TCP_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_TCP_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_TCP_H.c:15:10: fatal error: 'netinet/tcp.h' file not found
-#include <netinet/tcp.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9e809.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_NETINET_TCP_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e809.dir\Debug\\" /Fd"cmTC_9e809.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15,10): fatal error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_9e809.vcxproj]
 
 
 Source:
@@ -506,14 +483,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_63db2 && [1/2] Building C object CMakeFiles/cmTC_63db2.dir/HAVE_PEM_H.c.obj
-FAILED: CMakeFiles/cmTC_63db2.dir/HAVE_PEM_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_63db2.dir/HAVE_PEM_H.c.obj -MF CMakeFiles\cmTC_63db2.dir\HAVE_PEM_H.c.obj.d -o CMakeFiles/cmTC_63db2.dir/HAVE_PEM_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_PEM_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_PEM_H.c:15:10: fatal error: 'pem.h' file not found
-#include <pem.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b6b7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_PEM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6b7d.dir\Debug\\" /Fd"cmTC_b6b7d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15,10): fatal error C1083: Cannot open include file: 'pem.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_b6b7d.vcxproj]
 
 
 Source:
@@ -539,14 +516,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_34303 && [1/2] Building C object CMakeFiles/cmTC_34303.dir/HAVE_POLL_H.c.obj
-FAILED: CMakeFiles/cmTC_34303.dir/HAVE_POLL_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_34303.dir/HAVE_POLL_H.c.obj -MF CMakeFiles\cmTC_34303.dir\HAVE_POLL_H.c.obj.d -o CMakeFiles/cmTC_34303.dir/HAVE_POLL_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_POLL_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_POLL_H.c:15:10: fatal error: 'poll.h' file not found
-#include <poll.h>
-         ^~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_64ea8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_POLL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64ea8.dir\Debug\\" /Fd"cmTC_64ea8.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15,10): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_64ea8.vcxproj]
 
 
 Source:
@@ -572,14 +549,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;rsa.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_c1d35 && [1/2] Building C object CMakeFiles/cmTC_c1d35.dir/HAVE_RSA_H.c.obj
-FAILED: CMakeFiles/cmTC_c1d35.dir/HAVE_RSA_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_c1d35.dir/HAVE_RSA_H.c.obj -MF CMakeFiles\cmTC_c1d35.dir\HAVE_RSA_H.c.obj.d -o CMakeFiles/cmTC_c1d35.dir/HAVE_RSA_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_RSA_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_RSA_H.c:15:10: fatal error: 'rsa.h' file not found
-#include <rsa.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7a1f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_RSA_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1f6.dir\Debug\\" /Fd"cmTC_7a1f6.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c(15,10): fatal error C1083: Cannot open include file: 'rsa.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_7a1f6.vcxproj]
 
 
 Source:
@@ -605,14 +582,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_6c716 && [1/2] Building C object CMakeFiles/cmTC_6c716.dir/HAVE_SSL_H.c.obj
-FAILED: CMakeFiles/cmTC_6c716.dir/HAVE_SSL_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_6c716.dir/HAVE_SSL_H.c.obj -MF CMakeFiles\cmTC_6c716.dir\HAVE_SSL_H.c.obj.d -o CMakeFiles/cmTC_6c716.dir/HAVE_SSL_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SSL_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SSL_H.c:17:10: fatal error: 'ssl.h' file not found
-#include <ssl.h>
-         ^~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5a3df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SSL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a3df.dir\Debug\\" /Fd"cmTC_5a3df.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17,10): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_5a3df.vcxproj]
 
 
 Source:
@@ -640,14 +617,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_492b8 && [1/2] Building C object CMakeFiles/cmTC_492b8.dir/HAVE_STROPTS_H.c.obj
-FAILED: CMakeFiles/cmTC_492b8.dir/HAVE_STROPTS_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_492b8.dir/HAVE_STROPTS_H.c.obj -MF CMakeFiles\cmTC_492b8.dir\HAVE_STROPTS_H.c.obj.d -o CMakeFiles/cmTC_492b8.dir/HAVE_STROPTS_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c:21:10: fatal error: 'stropts.h' file not found
-#include <stropts.h>
-         ^~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fa61e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STROPTS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa61e.dir\Debug\\" /Fd"cmTC_fa61e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21,10): fatal error C1083: Cannot open include file: 'stropts.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_fa61e.vcxproj]
 
 
 Source:
@@ -679,14 +656,14 @@ int main(void){return 0;}
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_55a0a && [1/2] Building C object CMakeFiles/cmTC_55a0a.dir/HAVE_SYS_UTSNAME_H.c.obj
-FAILED: CMakeFiles/cmTC_55a0a.dir/HAVE_SYS_UTSNAME_H.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_55a0a.dir/HAVE_SYS_UTSNAME_H.c.obj -MF CMakeFiles\cmTC_55a0a.dir\HAVE_SYS_UTSNAME_H.c.obj.d -o CMakeFiles/cmTC_55a0a.dir/HAVE_SYS_UTSNAME_H.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c
-D:/Github/StonksBot/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTSNAME_H.c:26:10: fatal error: 'sys/utsname.h' file not found
-#include <sys/utsname.h>
-         ^~~~~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c9b16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_UTSNAME_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9b16.dir\Debug\\" /Fd"cmTC_c9b16.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c
+D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26,10): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_c9b16.vcxproj]
 
 
 Source:
@@ -723,41 +700,18 @@ int main(void){return 0;}
 Determining size of ssize_t failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f086f && [1/2] Building C object CMakeFiles/cmTC_f086f.dir/SIZEOF_SSIZE_T.c.obj
-FAILED: CMakeFiles/cmTC_f086f.dir/SIZEOF_SSIZE_T.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_f086f.dir/SIZEOF_SSIZE_T.c.obj -MF CMakeFiles\cmTC_f086f.dir\SIZEOF_SSIZE_T.c.obj.d -o CMakeFiles/cmTC_f086f.dir/SIZEOF_SSIZE_T.c.obj -c D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:28:12: error: use of undeclared identifier 'ssize_t'
-  ('0' + ((SIZE / 10000)%10)),
-           ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:26:22: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(ssize_t))
-                     ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:29:12: error: use of undeclared identifier 'ssize_t'
-  ('0' + ((SIZE / 1000)%10)),
-           ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:26:22: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(ssize_t))
-                     ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:30:12: error: use of undeclared identifier 'ssize_t'
-  ('0' + ((SIZE / 100)%10)),
-           ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:26:22: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(ssize_t))
-                     ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:31:12: error: use of undeclared identifier 'ssize_t'
-  ('0' + ((SIZE / 10)%10)),
-           ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:26:22: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(ssize_t))
-                     ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:32:12: error: use of undeclared identifier 'ssize_t'
-  ('0' +  (SIZE    % 10)),
-           ^
-D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:26:22: note: expanded from macro 'SIZE'
-#define SIZE (sizeof(ssize_t))
-                     ^
-5 errors generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2a9b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SSIZE_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a9b0.dir\Debug\\" /Fd"cmTC_2a9b0.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c
+D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28,12): error C2065: 'ssize_t': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2a9b0.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2a9b0.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2a9b0.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2a9b0.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_2a9b0.vcxproj]
 
 
 D:/Github/StonksBot/build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
@@ -815,14 +769,14 @@ int main(int argc, char *argv[])
 Determining if the basename exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_5fb53 && [1/2] Building C object CMakeFiles/cmTC_5fb53.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_5fb53.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_5fb53.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_5fb53.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_5fb53.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'basename'
-  return ((int*)(&basename))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ea8aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8aa.dir\Debug\\" /Fd"cmTC_ea8aa.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,27): error C2065: 'basename': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_ea8aa.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -865,14 +819,14 @@ int main(int argc, char** argv)
 Determining if the strncmpi exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_40e96 && [1/2] Building C object CMakeFiles/cmTC_40e96.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_40e96.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_40e96.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_40e96.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_40e96.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'strncmpi'
-  return ((int*)(&strncmpi))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bcacc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcacc.dir\Debug\\" /Fd"cmTC_bcacc.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,27): error C2065: 'strncmpi': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_bcacc.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -915,14 +869,14 @@ int main(int argc, char** argv)
 Determining if the alarm exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_ab8de && [1/2] Building C object CMakeFiles/cmTC_ab8de.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_ab8de.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_ab8de.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_ab8de.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_ab8de.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'alarm'
-  return ((int*)(&alarm))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dc02e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc02e.dir\Debug\\" /Fd"cmTC_dc02e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: 'alarm': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_dc02e.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -965,14 +919,14 @@ int main(int argc, char** argv)
 Determining if the getpwuid_r exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_4e91f && [1/2] Building C object CMakeFiles/cmTC_4e91f.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_4e91f.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_4e91f.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_4e91f.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_4e91f.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'getpwuid_r'
-  return ((int*)(&getpwuid_r))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bbe9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbe9d.dir\Debug\\" /Fd"cmTC_bbe9d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,29): error C2065: 'getpwuid_r': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_bbe9d.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1015,18 +969,14 @@ int main(int argc, char** argv)
 Determining if the usleep exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_7b156 && [1/2] Building C object CMakeFiles/cmTC_7b156.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_7b156.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_7b156.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_7b156.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_7b156.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'usleep'; did you mean '_sleep'?
-  return ((int*)(&usleep))[argc];
-                  ^~~~~~
-                  _sleep
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\stdlib.h:1267:27: note: '_sleep' declared here
-    _DCRTIMP void __cdecl _sleep(
-                          ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0ff08.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ff08.dir\Debug\\" /Fd"cmTC_0ff08.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,25): error C2065: 'usleep': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_0ff08.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1069,18 +1019,14 @@ int main(int argc, char** argv)
 Determining if the strerror_r exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_1c285 && [1/2] Building C object CMakeFiles/cmTC_1c285.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_1c285.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_1c285.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_1c285.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_1c285.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'strerror_r'; did you mean 'strerror_s'?
-  return ((int*)(&strerror_r))[argc];
-                  ^~~~~~~~~~
-                  strerror_s
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\string.h:46:30: note: 'strerror_s' declared here
-    _ACRTIMP errno_t __cdecl strerror_s(
-                             ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_57e9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57e9d.dir\Debug\\" /Fd"cmTC_57e9d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,29): error C2065: 'strerror_r': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_57e9d.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1123,14 +1069,14 @@ int main(int argc, char** argv)
 Determining if the siginterrupt exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_a3653 && [1/2] Building C object CMakeFiles/cmTC_a3653.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_a3653.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_a3653.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_a3653.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_a3653.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'siginterrupt'
-  return ((int*)(&siginterrupt))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6d0e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d0e0.dir\Debug\\" /Fd"cmTC_6d0e0.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,31): error C2065: 'siginterrupt': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_6d0e0.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1173,14 +1119,14 @@ int main(int argc, char** argv)
 Determining if the fork exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_64f6e && [1/2] Building C object CMakeFiles/cmTC_64f6e.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_64f6e.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_64f6e.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_64f6e.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_64f6e.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'fork'
-  return ((int*)(&fork))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ffd78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ffd78.dir\Debug\\" /Fd"cmTC_ffd78.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,23): error C2065: 'fork': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_ffd78.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1223,14 +1169,14 @@ int main(int argc, char** argv)
 Determining if the freeifaddrs exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_153c0 && [1/2] Building C object CMakeFiles/cmTC_153c0.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_153c0.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_153c0.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_153c0.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_153c0.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'freeifaddrs'
-  return ((int*)(&freeifaddrs))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_78910.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78910.dir\Debug\\" /Fd"cmTC_78910.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,30): error C2065: 'freeifaddrs': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_78910.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1273,18 +1219,14 @@ int main(int argc, char** argv)
 Determining if the pipe exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_e5b49 && [1/2] Building C object CMakeFiles/cmTC_e5b49.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_e5b49.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_e5b49.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_e5b49.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_e5b49.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'pipe'; did you mean '_pipe'?
-  return ((int*)(&pipe))[argc];
-                  ^~~~
-                  _pipe
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_io.h:243:30: note: '_pipe' declared here
-        _DCRTIMP int __cdecl _pipe(
-                             ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_18cdb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18cdb.dir\Debug\\" /Fd"cmTC_18cdb.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,23): error C2065: 'pipe': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18cdb.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1327,18 +1269,14 @@ int main(int argc, char** argv)
 Determining if the ftruncate exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_c5a3b && [1/2] Building C object CMakeFiles/cmTC_c5a3b.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_c5a3b.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_c5a3b.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_c5a3b.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_c5a3b.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'ftruncate'; did you mean 'strncat'?
-  return ((int*)(&ftruncate))[argc];
-                  ^~~~~~~~~
-                  strncat
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\string.h:263:43: note: 'strncat' declared here
-    char*, __RETURN_POLICY_DST, _ACRTIMP, strncat, strncat_s,
-                                          ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_aab18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aab18.dir\Debug\\" /Fd"cmTC_aab18.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: 'ftruncate': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_aab18.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1381,14 +1319,14 @@ int main(int argc, char** argv)
 Determining if the if_nametoindex exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f1f52 && [1/2] Building C object CMakeFiles/cmTC_f1f52.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_f1f52.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_f1f52.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_f1f52.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_f1f52.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'if_nametoindex'
-  return ((int*)(&if_nametoindex))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6fdd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fdd5.dir\Debug\\" /Fd"cmTC_6fdd5.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,33): error C2065: 'if_nametoindex': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_6fdd5.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1431,14 +1369,14 @@ int main(int argc, char** argv)
 Determining if the getrlimit exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_00a64 && [1/2] Building C object CMakeFiles/cmTC_00a64.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_00a64.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_00a64.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_00a64.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_00a64.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'getrlimit'
-  return ((int*)(&getrlimit))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_be0e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be0e1.dir\Debug\\" /Fd"cmTC_be0e1.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: 'getrlimit': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_be0e1.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1481,14 +1419,14 @@ int main(int argc, char** argv)
 Determining if the setrlimit exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_3d98e && [1/2] Building C object CMakeFiles/cmTC_3d98e.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_3d98e.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_3d98e.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_3d98e.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_3d98e.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'setrlimit'
-  return ((int*)(&setrlimit))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43f8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43f8e.dir\Debug\\" /Fd"cmTC_43f8e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: 'setrlimit': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_43f8e.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1531,14 +1469,14 @@ int main(int argc, char** argv)
 Determining if the fcntl exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_32c94 && [1/2] Building C object CMakeFiles/cmTC_32c94.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_32c94.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_32c94.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_32c94.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_32c94.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'fcntl'
-  return ((int*)(&fcntl))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a357a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a357a.dir\Debug\\" /Fd"cmTC_a357a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: 'fcntl': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_a357a.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1581,14 +1519,14 @@ int main(int argc, char** argv)
 Determining if the ioctl exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_a9a14 && [1/2] Building C object CMakeFiles/cmTC_a9a14.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_a9a14.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_a9a14.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_a9a14.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_a9a14.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'ioctl'
-  return ((int*)(&ioctl))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9117a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9117a.dir\Debug\\" /Fd"cmTC_9117a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,24): error C2065: 'ioctl': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_9117a.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1631,31 +1569,29 @@ int main(int argc, char** argv)
 Determining if the function mach_absolute_time exists failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_5e6ff && [1/2] Building C object CMakeFiles/cmTC_5e6ff.dir/CheckFunctionExists.c.obj
-[2/2] Linking C executable cmTC_5e6ff.exe
-FAILED: cmTC_5e6ff.exe 
-cmd.exe /C "cd . && "D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=mach_absolute_time -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -static-libgcc -static-libstdc++   -Xlinker /subsystem:console CMakeFiles/cmTC_5e6ff.dir/CheckFunctionExists.c.obj -o cmTC_5e6ff.exe -Xlinker /implib:cmTC_5e6ff.lib -Xlinker /pdb:cmTC_5e6ff.pdb -Xlinker /version:0.0   -lws2_32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames && cd ."
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-lld-link: error: undefined symbol: mach_absolute_time
->>> referenced by D:\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c:17
->>>               CMakeFiles/cmTC_5e6ff.dir/CheckFunctionExists.c.obj:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_63205.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mach_absolute_time /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63205.dir\Debug\\" /Fd"cmTC_63205.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol mach_absolute_time referenced in function main [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_63205.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_63205.exe : fatal error LNK1120: 1 unresolved externals [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_63205.vcxproj]
 
 
 
 Determining if the fsetxattr exist failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_e2824 && [1/2] Building C object CMakeFiles/cmTC_e2824.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_e2824.dir/CheckSymbolExists.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_e2824.dir/CheckSymbolExists.c.obj -MF CMakeFiles\cmTC_e2824.dir\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_e2824.dir/CheckSymbolExists.c.obj -c CheckSymbolExists.c
-CheckSymbolExists.c:31:19: error: use of undeclared identifier 'fsetxattr'
-  return ((int*)(&fsetxattr))[argc];
-                  ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a001d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a001d.dir\Debug\\" /Fd"cmTC_a001d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,28): error C2065: 'fsetxattr': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_a001d.vcxproj]
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1698,176 +1634,187 @@ int main(int argc, char** argv)
 Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_6cd2d && [1/2] Building C object CMakeFiles/cmTC_6cd2d.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_6cd2d.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6cd2d.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_6cd2d.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_6cd2d.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:44:10: fatal error: 'unistd.h' file not found
-#include <unistd.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7e384.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e384.dir\Debug\\" /Fd"cmTC_7e384.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(44,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_7e384.vcxproj]
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2f9b4 && [1/2] Building C object CMakeFiles/cmTC_2f9b4.dir/CurlTests.c.obj
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:354:13: warning: implicit declaration of function 'IoctlSocket' is invalid in C99 [-Wimplicit-function-declaration]
-    if(0 != IoctlSocket(0, 0, 0))
-            ^
-1 warning generated.
-[2/2] Linking C executable cmTC_2f9b4.exe
-FAILED: cmTC_2f9b4.exe 
-cmd.exe /C "cd . && "D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -static-libgcc -static-libstdc++   -Xlinker /subsystem:console CMakeFiles/cmTC_2f9b4.dir/CurlTests.c.obj -o cmTC_2f9b4.exe -Xlinker /implib:cmTC_2f9b4.lib -Xlinker /pdb:cmTC_2f9b4.pdb -Xlinker /version:0.0   -lws2_32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames && cd ."
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-lld-link: error: undefined symbol: IoctlSocket
->>> referenced by D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c:354
->>>               CMakeFiles/cmTC_2f9b4.dir/CurlTests.c.obj:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d9634.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9634.dir\Debug\\" /Fd"cmTC_d9634.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(354,24): warning C4013: 'IoctlSocket' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d9634.vcxproj]
+CurlTests.obj : error LNK2019: unresolved external symbol IoctlSocket referenced in function main [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d9634.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d9634.exe : fatal error LNK1120: 1 unresolved externals [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d9634.vcxproj]
 
 
 Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2fb2b && [1/2] Building C object CMakeFiles/cmTC_2fb2b.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_2fb2b.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2fb2b.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_2fb2b.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_2fb2b.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:440:17: warning: implicit declaration of function 'ioctl' is invalid in C99 [-Wimplicit-function-declaration]
-        if(0 != ioctl(0, FIONBIO, &flags))
-                ^
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:440:26: error: use of undeclared identifier 'FIONBIO'
-        if(0 != ioctl(0, FIONBIO, &flags))
-                         ^
-1 warning and 1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4a0e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a0e5.dir\Debug\\" /Fd"cmTC_4a0e5.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(440,22): warning C4013: 'ioctl' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_4a0e5.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(440,33): error C2065: 'FIONBIO': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_4a0e5.vcxproj]
 
 
 Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_fc962 && [1/2] Building C object CMakeFiles/cmTC_fc962.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_fc962.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_IOCTL_SIOCGIFADDR  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fc962.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_fc962.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_fc962.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:465:10: fatal error: 'net/if.h' file not found
-#include <net/if.h>
-         ^~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ed217.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed217.dir\Debug\\" /Fd"cmTC_ed217.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(465,10): fatal error C1083: Cannot open include file: 'net/if.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_ed217.vcxproj]
 
 
 Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_de8f6 && [1/2] Building C object CMakeFiles/cmTC_de8f6.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_de8f6.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_de8f6.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_de8f6.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_de8f6.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:505:43: error: use of undeclared identifier 'SO_NONBLOCK'
-        if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
-                                          ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_263c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_263c2.dir\Debug\\" /Fd"cmTC_263c2.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(505,54): error C2065: 'SO_NONBLOCK': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_263c2.vcxproj]
 
 
 Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_b6f9f && [1/2] Building C object CMakeFiles/cmTC_b6f9f.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_b6f9f.exe
-FAILED: cmTC_b6f9f.exe 
-cmd.exe /C "cd . && "D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -static-libgcc -static-libstdc++   -Xlinker /subsystem:console CMakeFiles/cmTC_b6f9f.dir/CurlTests.c.obj -o cmTC_b6f9f.exe -Xlinker /implib:cmTC_b6f9f.lib -Xlinker /pdb:cmTC_b6f9f.pdb -Xlinker /version:0.0   -lws2_32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames && cd ."
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-lld-link: error: undefined symbol: main
->>> referenced by d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:78
->>>               msvcrtd.lib(exe_main.obj):(int __cdecl invoke_main(void))
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_287b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_287b7.dir\Debug\\" /Fd"cmTC_287b7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+  CurlTests.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_287b7.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_287b7.exe : fatal error LNK1120: 1 unresolved externals [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_287b7.vcxproj]
 
 
 Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_bf0cb && [1/2] Building C object CMakeFiles/cmTC_bf0cb.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_bf0cb.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bf0cb.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_bf0cb.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_bf0cb.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:299:23: warning: overflow in expression; result is 2147483647 with type 'long' [-Winteger-overflow]
-  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
-                      ^
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:298:40: note: expanded from macro 'LARGE_OFF_T'
-#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
-                                       ^
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:299:22: error: 'off_t_is_large' declared as an array with a negative size
-  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
-                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1 warning and 1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b34d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b34d5.dir\Debug\\" /Fd"cmTC_b34d5.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(299,23): warning C4293: '<<': shift count negative or too big, undefined behavior [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_b34d5.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(300,27): warning C4293: '<<': shift count negative or too big, undefined behavior [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_b34d5.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(301,31): error C2118: negative subscript [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_b34d5.vcxproj]
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ce22a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_GCC /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce22a.dir\Debug\\" /Fd"cmTC_ce22a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(596,1): error C2010: '.': unexpected in macro parameter list [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_ce22a.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(597,1): error C2010: '.': unexpected in macro parameter list [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_ce22a.vcxproj]
 
 
 Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2fee6 && [1/2] Building C object CMakeFiles/cmTC_2fee6.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_2fee6.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_GLIBC_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2fee6.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_2fee6.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_2fee6.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:521:9: warning: implicit declaration of function 'strerror_r' is invalid in C99 [-Wimplicit-function-declaration]
-  check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
-        ^
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:521:51: error: subscripted value is not an array, pointer, or vector
-  check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
-1 warning and 1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d6618.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6618.dir\Debug\\" /Fd"cmTC_d6618.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(521,19): warning C4013: 'strerror_r' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d6618.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(521,53): error C2109: subscript requires array or pointer type [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d6618.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(521,8): error C2198: 'check': too few arguments for call [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_d6618.vcxproj]
 
 
 Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_5011f && [1/2] Building C object CMakeFiles/cmTC_5011f.dir/CurlTests.c.obj
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:536:9: warning: implicit declaration of function 'strerror_r' is invalid in C99 [-Wimplicit-function-declaration]
-  check(strerror_r(EACCES, buffer, sizeof(buffer)));
-        ^
-1 warning generated.
-[2/2] Linking C executable cmTC_5011f.exe
-FAILED: cmTC_5011f.exe 
-cmd.exe /C "cd . && "D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -static-libgcc -static-libstdc++   -Xlinker /subsystem:console CMakeFiles/cmTC_5011f.dir/CurlTests.c.obj -o cmTC_5011f.exe -Xlinker /implib:cmTC_5011f.lib -Xlinker /pdb:cmTC_5011f.pdb -Xlinker /version:0.0   -lws2_32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames && cd ."
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-lld-link: error: undefined symbol: strerror_r
->>> referenced by D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c:536
->>>               CMakeFiles/cmTC_5011f.dir/CurlTests.c.obj:(main)
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_25b2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25b2f.dir\Debug\\" /Fd"cmTC_25b2f.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(536,19): warning C4013: 'strerror_r' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(536,51): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj]
+CurlTests.obj : error LNK2019: unresolved external symbol strerror_r referenced in function main [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj]
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_25b2f.exe : fatal error LNK1120: 1 unresolved externals [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_25b2f.vcxproj]
 
 
 Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_a372f && [1/2] Building C object CMakeFiles/cmTC_a372f.dir/CurlTests.c.obj
-FAILED: CMakeFiles/cmTC_a372f.dir/CurlTests.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe"   -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a372f.dir/CurlTests.c.obj -MF CMakeFiles\cmTC_a372f.dir\CurlTests.c.obj.d -o CMakeFiles/cmTC_a372f.dir/CurlTests.c.obj -c D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:561:3: warning: implicit declaration of function 'clock_gettime' is invalid in C99 [-Wimplicit-function-declaration]
-  clock_gettime(CLOCK_MONOTONIC, &ts);
-  ^
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:561:17: error: use of undeclared identifier 'CLOCK_MONOTONIC'
-  clock_gettime(CLOCK_MONOTONIC, &ts);
-                ^
-1 warning and 1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6de81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6de81.dir\Debug\\" /Fd"cmTC_6de81.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(561,16): warning C4013: 'clock_gettime' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_6de81.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(561,32): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_6de81.vcxproj]
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_18670.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(568,25): warning C4013: '__builtin_available' undefined; assuming extern returning int [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18670.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(568,32): error C2065: 'macOS': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18670.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_AVAILABLE /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18670.dir\Debug\\" /Fd"cmTC_18670.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(568,32): error C2143: syntax error: missing ')' before 'constant' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18670.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(568,40): error C2059: syntax error: ')' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18670.vcxproj]
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(568,41): error C2059: syntax error: ')' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_18670.vcxproj]
 
 
 Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_9718a && [1/2] Building C object CMakeFiles/cmTC_9718a.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_9718a.dir/src.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -DHAVE_MSG_NOSIGNAL -ID:/Github/StonksBot/build/_deps/curl-src/include -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_9718a.dir/src.c.obj -MF CMakeFiles\cmTC_9718a.dir\src.c.obj.d -o CMakeFiles/cmTC_9718a.dir/src.c.obj -c src.c
-src.c:9:16: error: use of undeclared identifier 'MSG_NOSIGNAL'
-    int flag = MSG_NOSIGNAL;
-               ^
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_75c14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_MSG_NOSIGNAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75c14.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_75c14.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c(9,28): error C2065: 'MSG_NOSIGNAL': undeclared identifier [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_75c14.vcxproj]
 
 
 Source file was:
@@ -1886,14 +1833,14 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following compile output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f84a3 && [1/2] Building C object CMakeFiles/cmTC_f84a3.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_f84a3.dir/src.c.obj 
-"D:\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\x64\bin\clang.exe" -DHAVE_POLL_FINE -ID:/Github/StonksBot/build/_deps/curl-src/include -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd    -D_WINSOCKAPI_= -DSECURITY_WIN32 -MD -MT CMakeFiles/cmTC_f84a3.dir/src.c.obj -MF CMakeFiles\cmTC_f84a3.dir\src.c.obj.d -o CMakeFiles/cmTC_f84a3.dir/src.c.obj -c src.c
-src.c:3:14: fatal error: 'sys/time.h' file not found
-    #include <sys/time.h>
-             ^~~~~~~~~~~~
-1 error generated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3e379.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_POLL_FINE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e379.dir\Debug\\" /Fd"cmTC_3e379.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c(3,14): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_3e379.vcxproj]
 
 
 ...and run output:

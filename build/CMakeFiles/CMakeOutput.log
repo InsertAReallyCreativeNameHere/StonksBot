@@ -1,393 +1,400 @@
 The system is: Windows - 10.0.19041 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/x64/bin/clang.exe 
+Compiler:  
 Build flags: 
-Id flags: -c 
+Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/07/2021 6:47:50 PM.
+Project "D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-The C compiler identification is Clang, found in "D:/Github/StonksBot/build/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Github/StonksBot/build/CMakeFiles/3.20.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/x64/bin/clang.exe 
+Compiler:  
 Build flags: 
-Id flags: -c 
+Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/07/2021 6:47:52 PM.
+Project "D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\Github\StonksBot\build\CMakeFiles\3.20.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-The CXX compiler identification is Clang, found in "D:/Github/StonksBot/build/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Github/StonksBot/build/CMakeFiles/3.20.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_d1923 && [1/2] Building C object CMakeFiles/cmTC_d1923.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_d1923.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6e482.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e482.dir\Debug\\" /Fd"cmTC_6e482.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_6e482.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_6e482.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_dd009 && [1/2] Building CXX object CMakeFiles/cmTC_dd009.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_dd009.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_913f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_913f7.dir\Debug\\" /Fd"cmTC_913f7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_913f7.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_913f7.exe
 
 
 
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_fe81b && [1/2] Building CXX object CMakeFiles/cmTC_fe81b.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_fe81b.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-
-
-
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_8a555 && [1/2] Building CXX object CMakeFiles/cmTC_8a555.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_8a555.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-
-
-
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_variable_templates
 Determining if the function getch exists in the ws2_32; passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_da754 && [1/2] Building C object CMakeFiles/cmTC_da754.dir/CheckFunctionExists.c.obj
-[2/2] Linking C executable cmTC_da754.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0f4e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f4e0.dir\Debug\\" /Fd"cmTC_0f4e0.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_0f4e0.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_0f4e0.exe
 
 
 
 Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f56b7 && [1/2] Building C object CMakeFiles/cmTC_f56b7.dir/CheckFunctionExists.c.obj
-[2/2] Linking C executable cmTC_f56b7.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dafb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dafb8.dir\Debug\\" /Fd"cmTC_dafb8.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_dafb8.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_dafb8.exe
 
 
 
 Determining if files ;windows.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2e432 && [1/2] Building C object CMakeFiles/cmTC_2e432.dir/HAVE_WINDOWS_H.c.obj
-[2/2] Linking C executable cmTC_2e432.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2948c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINDOWS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2948c.dir\Debug\\" /Fd"cmTC_2948c.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+  cmTC_2948c.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_2948c.exe
 
 
 
 Determining if files windows.h;winsock.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_864fb && [1/2] Building C object CMakeFiles/cmTC_864fb.dir/HAVE_WINSOCK_H.c.obj
-[2/2] Linking C executable cmTC_864fb.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_eb13a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINSOCK_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb13a.dir\Debug\\" /Fd"cmTC_eb13a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c
+  cmTC_eb13a.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_eb13a.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_68ff7 && [1/2] Building C object CMakeFiles/cmTC_68ff7.dir/HAVE_WS2TCPIP_H.c.obj
-[2/2] Linking C executable cmTC_68ff7.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3b00a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WS2TCPIP_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b00a.dir\Debug\\" /Fd"cmTC_3b00a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
+  cmTC_3b00a.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_3b00a.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_a3b38 && [1/2] Building C object CMakeFiles/cmTC_a3b38.dir/HAVE_WINSOCK2_H.c.obj
-[2/2] Linking C executable cmTC_a3b38.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4660d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_WINSOCK2_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4660d.dir\Debug\\" /Fd"cmTC_4660d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
+  cmTC_4660d.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_4660d.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_59902 && [1/2] Building C object CMakeFiles/cmTC_59902.dir/HAVE_STDIO_H.c.obj
-[2/2] Linking C executable cmTC_59902.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_93105.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93105.dir\Debug\\" /Fd"cmTC_93105.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c
+  cmTC_93105.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_93105.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_7e111 && [1/2] Building C object CMakeFiles/cmTC_7e111.dir/HAVE_ASSERT_H.c.obj
-[2/2] Linking C executable cmTC_7e111.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d0718.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ASSERT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0718.dir\Debug\\" /Fd"cmTC_d0718.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c
+  cmTC_d0718.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d0718.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_90072 && [1/2] Building C object CMakeFiles/cmTC_90072.dir/HAVE_ERRNO_H.c.obj
-[2/2] Linking C executable cmTC_90072.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_24b36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_ERRNO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24b36.dir\Debug\\" /Fd"cmTC_24b36.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c
+  cmTC_24b36.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_24b36.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_ccba4 && [1/2] Building C object CMakeFiles/cmTC_ccba4.dir/HAVE_LOCALE_H.c.obj
-[2/2] Linking C executable cmTC_ccba4.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_91c15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_LOCALE_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91c15.dir\Debug\\" /Fd"cmTC_91c15.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c
+  cmTC_91c15.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_91c15.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_be764 && [1/2] Building C object CMakeFiles/cmTC_be764.dir/HAVE_STDBOOL_H.c.obj
-[2/2] Linking C executable cmTC_be764.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_25c2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDBOOL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25c2e.dir\Debug\\" /Fd"cmTC_25c2e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c
+  cmTC_25c2e.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_25c2e.exe
 
 
 
 Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_6d356 && [1/2] Building C object CMakeFiles/cmTC_6d356.dir/HAVE_STDDEF_H.c.obj
-[2/2] Linking C executable cmTC_6d356.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8bb69.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDDEF_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bb69.dir\Debug\\" /Fd"cmTC_8bb69.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c
+  cmTC_8bb69.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_8bb69.exe
 
 
 
 Determining size of size_t passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_d9253 && [1/2] Building C object CMakeFiles/cmTC_d9253.dir/SIZEOF_SIZE_T.c.obj
-[2/2] Linking C executable cmTC_d9253.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_40bb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIZE_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40bb1.dir\Debug\\" /Fd"cmTC_40bb1.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  cmTC_40bb1.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_40bb1.exe
 
 
 
 Determining size of long long passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_8685a && [1/2] Building C object CMakeFiles/cmTC_8685a.dir/SIZEOF_LONG_LONG.c.obj
-[2/2] Linking C executable cmTC_8685a.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3497d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3497d.dir\Debug\\" /Fd"cmTC_3497d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  cmTC_3497d.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_3497d.exe
 
 
 
 Determining size of long passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f6d42 && [1/2] Building C object CMakeFiles/cmTC_f6d42.dir/SIZEOF_LONG.c.obj
-[2/2] Linking C executable cmTC_f6d42.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_658b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_658b5.dir\Debug\\" /Fd"cmTC_658b5.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  cmTC_658b5.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_658b5.exe
 
 
 
 Determining size of short passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_19d7e && [1/2] Building C object CMakeFiles/cmTC_19d7e.dir/SIZEOF_SHORT.c.obj
-[2/2] Linking C executable cmTC_19d7e.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d1d8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1d8b.dir\Debug\\" /Fd"cmTC_d1d8b.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  cmTC_d1d8b.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1d8b.exe
 
 
 
 Determining size of int passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_3071e && [1/2] Building C object CMakeFiles/cmTC_3071e.dir/SIZEOF_INT.c.obj
-[2/2] Linking C executable cmTC_3071e.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b39fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_INT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b39fa.dir\Debug\\" /Fd"cmTC_b39fa.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  cmTC_b39fa.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_b39fa.exe
 
 
 
 Determining size of __int64 passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_c9e5f && [1/2] Building C object CMakeFiles/cmTC_c9e5f.dir/SIZEOF___INT64.c.obj
-[2/2] Linking C executable cmTC_c9e5f.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cca0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF___INT64.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cca0c.dir\Debug\\" /Fd"cmTC_cca0c.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  cmTC_cca0c.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_cca0c.exe
 
 
 
 Determining size of time_t passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_70f46 && [1/2] Building C object CMakeFiles/cmTC_70f46.dir/SIZEOF_TIME_T.c.obj
-[2/2] Linking C executable cmTC_70f46.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f0cde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_TIME_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0cde.dir\Debug\\" /Fd"cmTC_f0cde.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  cmTC_f0cde.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_f0cde.exe
 
 
 
 Determining if the gethostbyname exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_4be5c && [1/2] Building C object CMakeFiles/cmTC_4be5c.dir/CheckSymbolExists.c.obj
-CheckSymbolExists.c:31:19: warning: 'gethostbyname' is deprecated: Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [-Wdeprecated-declarations]
-  return ((int*)(&gethostbyname))[argc];
-                  ^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:2215:1: note: 'gethostbyname' has been explicitly marked deprecated here
-_WINSOCK_DEPRECATED_BY("getaddrinfo() or GetAddrInfoW()")
-^
-D:\Windows Kits\10\include\10.0.19041.0\um\ws2tcpip.h:39:56: note: expanded from macro '_WINSOCK_DEPRECATED_BY'
-#define _WINSOCK_DEPRECATED_BY(replacement) __declspec(deprecated("Use " replacement " instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings"))
-                                                       ^
-1 warning generated.
-[2/2] Linking C executable cmTC_4be5c.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0e892.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e892.dir\Debug\\" /Fd"cmTC_0e892.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,19): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_0e892.vcxproj]
+  cmTC_0e892.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_0e892.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -430,10 +437,14 @@ int main(int argc, char** argv)
 Determining if the strtoll exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f438a && [1/2] Building C object CMakeFiles/cmTC_f438a.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_f438a.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5ad04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ad04.dir\Debug\\" /Fd"cmTC_5ad04.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_5ad04.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ad04.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -476,10 +487,14 @@ int main(int argc, char** argv)
 Determining if the _strtoi64 exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_c785f && [1/2] Building C object CMakeFiles/cmTC_c785f.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_c785f.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1acf6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1acf6.dir\Debug\\" /Fd"cmTC_1acf6.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_1acf6.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_1acf6.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -522,10 +537,14 @@ int main(int argc, char** argv)
 Determining if the freeaddrinfo exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_48f71 && [1/2] Building C object CMakeFiles/cmTC_48f71.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_48f71.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_04c3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04c3e.dir\Debug\\" /Fd"cmTC_04c3e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_04c3e.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_04c3e.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -568,10 +587,14 @@ int main(int argc, char** argv)
 Determining if the getprotobyname exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_5f9e7 && [1/2] Building C object CMakeFiles/cmTC_5f9e7.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_5f9e7.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_735e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_735e1.dir\Debug\\" /Fd"cmTC_735e1.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_735e1.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_735e1.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -614,10 +637,14 @@ int main(int argc, char** argv)
 Determining if the getpeername exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_1ca27 && [1/2] Building C object CMakeFiles/cmTC_1ca27.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_1ca27.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1593a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1593a.dir\Debug\\" /Fd"cmTC_1593a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_1593a.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_1593a.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -660,10 +687,14 @@ int main(int argc, char** argv)
 Determining if the getsockname exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_fa538 && [1/2] Building C object CMakeFiles/cmTC_fa538.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_fa538.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5c95d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c95d.dir\Debug\\" /Fd"cmTC_5c95d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_5c95d.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_5c95d.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -706,10 +737,14 @@ int main(int argc, char** argv)
 Determining if the setlocale exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2f5b6 && [1/2] Building C object CMakeFiles/cmTC_2f5b6.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_2f5b6.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9bc98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bc98.dir\Debug\\" /Fd"cmTC_9bc98.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_9bc98.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_9bc98.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -752,23 +787,15 @@ int main(int argc, char** argv)
 Determining if the setmode exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_41462 && [1/2] Building C object CMakeFiles/cmTC_41462.dir/CheckSymbolExists.c.obj
-CheckSymbolExists.c:31:19: warning: 'setmode' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details. [-Wdeprecated-declarations]
-  return ((int*)(&setmode))[argc];
-                  ^
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_io.h:531:24: note: 'setmode' has been explicitly marked deprecated here
-        _Check_return_ _CRT_NONSTDC_DEPRECATE(_setmode)
-                       ^
-D:\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h:414:50: note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
-        #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
-                                                 ^
-D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime.h:310:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
-#define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
-                                              ^
-1 warning generated.
-[2/2] Linking C executable cmTC_41462.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_de95f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de95f.dir\Debug\\" /Fd"cmTC_de95f.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31,19): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details. [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_de95f.vcxproj]
+  cmTC_de95f.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_de95f.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -811,10 +838,14 @@ int main(int argc, char** argv)
 Determining if the setsockopt exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_b757f && [1/2] Building C object CMakeFiles/cmTC_b757f.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_b757f.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_546c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_546c4.dir\Debug\\" /Fd"cmTC_546c4.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_546c4.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_546c4.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -857,10 +888,14 @@ int main(int argc, char** argv)
 Determining if the inet_pton exist passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_60460 && [1/2] Building C object CMakeFiles/cmTC_60460.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_60460.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1e099.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e099.dir\Debug\\" /Fd"cmTC_1e099.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_1e099.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_1e099.exe
 
 
 File D:/Github/StonksBot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -903,105 +938,108 @@ int main(int argc, char** argv)
 Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_296dd && [1/2] Building C object CMakeFiles/cmTC_296dd.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_296dd.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e2016.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2016.dir\Debug\\" /Fd"cmTC_e2016.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c(326): warning C4700: uninitialized local variable 'socket' used [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_e2016.vcxproj]
+  cmTC_e2016.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_e2016.exe
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_9a33a && [1/2] Building C object CMakeFiles/cmTC_9a33a.dir/CurlTests.c.obj
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:382:41: warning: passing 'long *' to parameter of type 'u_long *' (aka 'unsigned long *') converts between pointers to integer types with different sign [-Wpointer-sign]
-        if(0 != ioctlsocket(0, FIONBIO, &flags))
-                                        ^~~~~~
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:1711:18: note: passing argument to parameter 'argp' here
-    u_long FAR * argp
-                 ^
-1 warning generated.
-[2/2] Linking C executable cmTC_9a33a.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_176d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_176d3.dir\Debug\\" /Fd"cmTC_176d3.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_176d3.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_176d3.exe
 
 
 Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_d0861 && [1/2] Building C object CMakeFiles/cmTC_d0861.dir/CurlTests.c.obj
-D:/Github/StonksBot/build/_deps/curl-src/CMake/CurlTests.c:409:41: warning: incompatible pointer types passing 'int *' to parameter of type 'u_long *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
-        if(0 != ioctlsocket(0, FIONBIO, &flags))
-                                        ^~~~~~
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:1711:18: note: passing argument to parameter 'argp' here
-    u_long FAR * argp
-                 ^
-1 warning generated.
-[2/2] Linking C executable cmTC_d0861.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2f826.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f826.dir\Debug\\" /Fd"cmTC_2f826.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_2f826.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_2f826.exe
 
 
 Performing Curl Test HAVE_BOOL_T passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_364b5 && [1/2] Building C object CMakeFiles/cmTC_364b5.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_364b5.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_205c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_205c7.dir\Debug\\" /Fd"cmTC_205c7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_205c7.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_205c7.exe
 
 
 Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_17680 && [1/2] Building C object CMakeFiles/cmTC_17680.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_17680.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
-
-
-Performing Curl Test HAVE_VARIADIC_MACROS_GCC passed with the following output:
-Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_dee2a && [1/2] Building C object CMakeFiles/cmTC_dee2a.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_dee2a.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6f719.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CurlTests.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_C99 /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f719.dir\Debug\\" /Fd"cmTC_6f719.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\Github\StonksBot\build\_deps\curl-src\CMake\CurlTests.c"
+  cmTC_6f719.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f719.exe
 
 
 Determining size of off_t passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_2c38c && [1/2] Building C object CMakeFiles/cmTC_2c38c.dir/SIZEOF_OFF_T.c.obj
-[2/2] Linking C executable cmTC_2c38c.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9da7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_OFF_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da7e.dir\Debug\\" /Fd"cmTC_9da7e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c
+  cmTC_9da7e.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_9da7e.exe
 
 
 
 Determining size of curl_off_t passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_51bed && [1/2] Building C object CMakeFiles/cmTC_51bed.dir/SIZEOF_CURL_OFF_T.c.obj
-[2/2] Linking C executable cmTC_51bed.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f5892.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_CURL_OFF_T.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5892.dir\Debug\\" /Fd"cmTC_f5892.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c
+  cmTC_f5892.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_f5892.exe
 
-
-
-Performing Curl Test HAVE_BUILTIN_AVAILABLE passed with the following output:
-Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_a9cef && [1/2] Building C object CMakeFiles/cmTC_a9cef.dir/CurlTests.c.obj
-[2/2] Linking C executable cmTC_a9cef.exe
-clang: warning: argument unused during compilation: '-static-libgcc' [-Wunused-command-line-argument]
-clang: warning: argument unused during compilation: '-static-libstdc++' [-Wunused-command-line-argument]
 
 
 Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_743a0 && [1/2] Building C object CMakeFiles/cmTC_743a0.dir/src.c.obj
-[2/2] Linking C static library cmTC_743a0.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_28c46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_recv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28c46.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_28c46.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+  cmTC_28c46.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_28c46.lib
 
 
 Source file was:
@@ -1019,24 +1057,16 @@ int main(void) {
 Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_dd203 && [1/2] Building C object CMakeFiles/cmTC_dd203.dir/src.c.obj
-src.c:10:19: warning: 'recv' redeclared without 'dllimport' attribute: previous 'dllimport' ignored [-Winconsistent-dllimport]
-                  recv(SOCKET, char *, int, int);
-                  ^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:2002:1: note: previous declaration is here
-recv(
-^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:1999:1: note: previous attribute is here
-WINSOCK_API_LINKAGE
-^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:94:29: note: expanded from macro 'WINSOCK_API_LINKAGE'
-#define WINSOCK_API_LINKAGE DECLSPEC_IMPORT
-                            ^
-D:\Windows Kits\10\include\10.0.19041.0\um\winnt.h:203:36: note: expanded from macro 'DECLSPEC_IMPORT'
-#define DECLSPEC_IMPORT __declspec(dllimport)
-                                   ^
-1 warning generated.
-[2/2] Linking C static library cmTC_dd203.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_dedaf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_func_recv_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dedaf.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_dedaf.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c(10,49): warning C4273: 'recv': inconsistent dll linkage [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_dedaf.vcxproj]
+D:\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(2002,1): message : see previous definition of 'recv' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_dedaf.vcxproj]
+  cmTC_dedaf.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_dedaf.lib
 
 
 Source file was:
@@ -1062,8 +1092,14 @@ Source file was:
 Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_30b88 && [1/2] Building C object CMakeFiles/cmTC_30b88.dir/src.c.obj
-[2/2] Linking C static library cmTC_30b88.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5600a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_send /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5600a.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_5600a.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+  cmTC_5600a.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_5600a.lib
 
 
 Source file was:
@@ -1081,24 +1117,16 @@ int main(void) {
 Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_9e03b && [1/2] Building C object CMakeFiles/cmTC_9e03b.dir/src.c.obj
-src.c:10:19: warning: 'send' redeclared without 'dllimport' attribute: previous 'dllimport' ignored [-Winconsistent-dllimport]
-                  send(SOCKET, const char *, int, int);
-                  ^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:2077:1: note: previous declaration is here
-send(
-^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:2074:1: note: previous attribute is here
-WINSOCK_API_LINKAGE
-^
-D:\Windows Kits\10\include\10.0.19041.0\um\winsock2.h:94:29: note: expanded from macro 'WINSOCK_API_LINKAGE'
-#define WINSOCK_API_LINKAGE DECLSPEC_IMPORT
-                            ^
-D:\Windows Kits\10\include\10.0.19041.0\um\winnt.h:203:36: note: expanded from macro 'DECLSPEC_IMPORT'
-#define DECLSPEC_IMPORT __declspec(dllimport)
-                                   ^
-1 warning generated.
-[2/2] Linking C static library cmTC_9e03b.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1ce24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D curl_cv_func_send_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ce24.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ce24.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c(10,55): warning C4273: 'send': inconsistent dll linkage [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_1ce24.vcxproj]
+D:\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(2077,1): message : see previous definition of 'send' [D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\cmTC_1ce24.vcxproj]
+  cmTC_1ce24.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ce24.lib
 
 
 Source file was:
@@ -1124,8 +1152,14 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_f1221 && [1/2] Building C object CMakeFiles/cmTC_f1221.dir/src.c.obj
-[2/2] Linking C static library cmTC_f1221.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d1fb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_STRUCT_TIMEVAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1fb9.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1fb9.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+  cmTC_d1fb9.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1fb9.lib
 
 
 Source file was:
@@ -1146,16 +1180,28 @@ int main(void) {
 Determining size of sig_atomic_t passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_06a81 && [1/2] Building C object CMakeFiles/cmTC_06a81.dir/SIZEOF_SIG_ATOMIC_T.c.obj
-[2/2] Linking C static library cmTC_06a81.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ecf81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIG_ATOMIC_T.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ecf81.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_ecf81.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c
+  cmTC_ecf81.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_ecf81.lib
 
 
 
 Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeeded with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_7574e && [1/2] Building C object CMakeFiles/cmTC_7574e.dir/src.c.obj
-[2/2] Linking C static library cmTC_7574e.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d5269.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D SECURITY_WIN32 /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5269.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d5269.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\src.c
+  cmTC_d5269.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_d5269.lib
 
 
 Source file was:
@@ -1171,8 +1217,14 @@ Source file was:
 Determining size of struct sockaddr_storage passed with the following output:
 Change Dir: D:/Github/StonksBot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Github/CykaBlyat-Tools/mingw64/bin/ninja.exe cmTC_e6c11 && [1/2] Building C object CMakeFiles/cmTC_e6c11.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
-[2/2] Linking C static library cmTC_e6c11.lib
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_103a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.2+857e5a733 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  cl /c /I"D:\Github\StonksBot\build\_deps\curl-src\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_103a9.dir\Debug\\" /Fd"D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_103a9.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue D:\Github\StonksBot\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  cmTC_103a9.vcxproj -> D:\Github\StonksBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_103a9.lib
 
 
 

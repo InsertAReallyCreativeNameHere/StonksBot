@@ -7,30 +7,36 @@
 
 namespace stocc
 {
-    struct Command final
-    {
-        std::string name;
-        std::string description;
-
-        std::initializer_list<Command> subCommands;
-    };
-
     struct CommandOutput
     {
         SleepyDiscord::Snowflake<SleepyDiscord::Channel> channelID;
         std::string message;
         SleepyDiscord::Embed embed;
+        void (*postOutputAction)() = nullptr;
+    };
+
+    struct CommandData
+    {
+        SleepyDiscord::Snowflake<SleepyDiscord::Channel> channelID;
+        std::vector<std::string>& commandSplit;
+        size_t commandIndex;
+    };
+
+    struct CommandBehavior
+    {
+        CommandOutput (*action)(CommandBehavior& behavior, CommandData& data);
+        std::map<uint64_t, CommandBehavior> subCommands;
     };
 
     class StonksClient;
     class CommandHandler final
     {
-        static std::string prefix;
-        static std::initializer_list<Command> commandList;
     public:
         CommandHandler() = delete;
 
-        static CommandOutput handleMessage(const SleepyDiscord::Message& message);
+        static SleepyDiscord::DiscordClient* client;
+
+        static void handleMessage(const SleepyDiscord::Message& message);
 
         friend class StonksClient;
     };

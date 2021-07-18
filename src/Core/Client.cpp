@@ -9,7 +9,6 @@ void StonksClient::onMessage(Message message)
 {
     if (!message.author.bot)
     {
-        auto out = CommandHandler::handleMessage(message);
-        sendMessage(out.channelID, out.message, out.embed);
+        CommandHandler::handleMessage(message);
     }
 }
