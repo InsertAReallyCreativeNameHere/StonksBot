@@ -3,6 +3,7 @@
 #include <initializer_list>
 #include <list>
 #include <string>
+#include <Core/Client.h>
 #include <sleepy_discord/sleepy_discord.h>
 
 namespace stocc
@@ -17,15 +18,17 @@ namespace stocc
 
     struct CommandData
     {
-        SleepyDiscord::Snowflake<SleepyDiscord::Channel> channelID;
+        const SleepyDiscord::Message& message;
         std::vector<std::string>& commandSplit;
         size_t commandIndex;
     };
 
     struct CommandBehavior
     {
+        std::string displayName;
+        std::string description;
         CommandOutput (*action)(CommandBehavior& behavior, CommandData& data);
-        std::map<uint64_t, CommandBehavior> subCommands;
+        std::unordered_map<std::string, CommandBehavior> subCommands;
     };
 
     class StonksClient;
@@ -34,7 +37,7 @@ namespace stocc
     public:
         CommandHandler() = delete;
 
-        static SleepyDiscord::DiscordClient* client;
+        static StonksClient* client;
 
         static void handleMessage(const SleepyDiscord::Message& message);
 

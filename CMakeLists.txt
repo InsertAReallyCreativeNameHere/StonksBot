@@ -78,5 +78,6 @@ target_link_libraries(StonksBot PUBLIC
 )
 target_include_directories(StonksBot PUBLIC
     "${CMAKE_CURRENT_LIST_DIR}/src"
+    "${CMAKE_CURRENT_LIST_DIR}/dependencies/json"
     "${CMAKE_CURRENT_LIST_DIR}/external/sleepy-discord/include"
 )
